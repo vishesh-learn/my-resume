@@ -1,0 +1,136 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}
+body{background:#FFF;line-height:1;text-align:left;font-feature-settings:"liga" 0;-moz-font-feature-settings:"liga" off}
+.document.skn-tml3 table{border-collapse:collapse;border-spacing:0;font-size:inherit;color:inherit;width:100%}
+
+.document.skn-tml3 ul,.document.skn-tml3 li{margin:5px 0 0 10px;padding:0}
+.document.skn-tml3 ul li{margin:0 0 0 13px;padding:0 0 0 10px}
+
+.document.skn-tml3 .paddedline{display:block}
+.document.skn-tml3 .jobtitle,.document.skn-tml3 .degree,.document.skn-tml3 .companyname,.document.skn-tml3 .programline{color:#343b40}
+.document.skn-tml3 .jobtitle,.document.skn-tml3 .degree,.document.skn-tml3 .txt-bold{font-weight:bold}
+.document.skn-tml3 .datesWrapper{float:right;font-style:italic}
+.document.skn-tml3 .displayNoneThisField{display:none}
+.document.skn-tml3 .flt-right{float:right}
+
+.document.skn-tml3{color:#343b40;background-color:#FFF!important;word-wrap:break-word}
+.document.skn-tml3 .name{font-weight:bold;font-size:15px;line-height:17px;padding:0;text-align:left;text-transform:uppercase;letter-spacing:1px;color:#343b40}
+.document.skn-tml3 .profTitle{padding-bottom:3px}
+.document.skn-tml3 .paragraph{position:relative}
+.document.skn-tml3 .address{position:relative;text-align:left;font-size:0.917em;line-height:1.25em}
+.document.skn-tml3 .address{margin:0}
+.document.skn-tml3 .table_wrapper{width:100%;margin-top:0}
+.document.skn-tml3 table.skills th,.document.skn-tml3 table.skills td{width:20%;text-align:center}
+.document.skn-tml3 table.skills th{text-decoration:underline}
+.document.skn-tml3 table.skills .skillname,.document.skn-tml3 table.skills .skillrating{text-align:left;width:35%}
+.document.skn-tml3 table.skills .skillrating{width:20%}
+.document.skn-tml3 table.skills .skillyears,.document.skn-tml3 table.skills .skilllast{width:19%}
+.document.skn-tml3 table.skills .pad1{width:5%}
+.document.skn-tml3 table.skills .pad2,.document.skn-tml3 table.skills .pad3{width:1%}
+.document.skn-tml3 .heading{clear:both;font-weight:bold;text-transform:uppercase;color:#343b40}
+.document.skn-tml3 .sectiontitle{letter-spacing:1px}
+
+/*Timeline classes*/
+.document.skn-tml3 .section{border-left:1px solid #434d54;padding-left:20px;margin-left:17px;position:relative}
+.document.skn-tml3 .firstsection,.document.skn-tml3 .SECTION_CNTC,.document.skn-tml3 .firstsection,.document.skn-tml3 .namesec{border:none!important}
+.document.skn-tml3 .SECTION_CNTC+.section:before{content:"";top:0;left:-3px;width:5px;height:5px;background:#fff;position:absolute;z-index:1}
+.document.skn-tml3 .firstsection{padding-bottom:0}
+.document.skn-tml3 .heading{position:relative}
+.document.skn-tml3 .heading:before{display:block;position:absolute;top:4px;left:-25px;content:"";height:8px;width:8px;border:1px solid #434d54;border-radius:100%;background:#fff;z-index:2}
+
+.document.skn-tml3,.document.skn-tml3 table{line-height:17px}
+.document.skn-tml3.pagesize{width:548px}
+.document.skn-tml3.fontsize,.document.skn-tml3 .lang-sec.infobarsec .paragraph *,.document.skn-tml3 .lang-sec.infotilesec .paragraph *,.document.skn-tml3 .skli-sec .paragraph *{font-size:12px}
+.document.skn-tml3.fontface{font-family:Verdana}
+.document.skn-tml3.vmargins{padding-top:32px;padding-bottom:32px}
+.document.skn-tml3.hmargins{padding-left:32px;padding-right:32px}
+.document.skn-tml3 .section{padding-top:15px !important;border-color:#343b40}
+.document.skn-tml3 .firstsection,.document.skn-tml3 .SECTION_CNTC{margin-top:0;padding-top:0!important}
+.document.skn-tml3 .paragraph{margin-top:10px}
+.document.skn-tml3 .firstparagraph{margin-top:0}
+.document.skn-tml3 .singlecolumn,.document.skn-tml3 .maincolumn{margin-left:0px}
+.document.skn-tml3 .sectiontitle{font-size:13px;line-height:28px}
+.document.skn-tml3 .heading{margin-bottom:5px}
+.document.skn-tml3 table.skills td{padding-top:5px}
+.document.skn-tml3 .name{font-size:29px;line-height:34px}
+.document.skn-tml3 .profTitle{font-size:16px;line-height:26px}
+.document.skn-tml3 .address{font-size:12px;line-height:17px}
+.document.skn-tml3 .heading{color:#343b40}
+.document.skn-tml3 .lang-sec .heading,.document.skn-tml3 .skli-sec .heading{margin-left:-0px}
+.document.skn-tml3.MPR .hide-bar .field-ratt{display:none}
+
+/*Timeline*/
+.document.skn-tml3 .heading:before{border-color:#343b40;top:9px}
+.document.skn-tml3 .SECTION_CNTC+.section:before{height:34px}
+
+/* custom css */
+body a {
+  color: unset;
+}
+
+.circled-list li {
+  list-style-type: circle;
+}
+
+.sortableInner {
+  width: max-content;
+}
+
+.hBar-container {
+  display: flex;
+}
+
+.hBar {
+  padding-right: 10px;
+  border-right: 1px solid;
+  margin-right: 10px;
+  min-width: 296px;
+}
+
+.multiline-list li:not(:last-child) {
+  margin-bottom: 10px !important;
+}
+
+.hBarRightColumn {
+  display: flex;
+  align-items: center;
+}
+
+.education .paragraph:not(:first-child) {
+  margin-top: 14px !important;
+}
+
+.labelValue {
+  height: 25px;
+}
+
+.labelValue .label::after {
+  content: ":";
+  float: right;
+}
+
+.labelValue .label {
+  font-weight: bold;
+  width: 108px;
+  display: inline-block;
+}
+
+.labelValue.full .label {
+  width: auto;
+}
+
+.labelValue .value {
+  display: inline-block;
+}
+
+.labelValue:nth-child(1) {
+  padding-right: 10px;
+}
+
+.labelValue:nth-child(2) {
+  padding-left: 10px;
+  border-left: 1px solid;
+}
+
+.section {
+  page-break-inside: avoid;
+}

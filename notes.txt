@@ -1,0 +1,15 @@
+In my free time, I enjoy working on my pet project, “DotBox,” a digital version of the traditional paper-and-pencil game “Dots and Boxes.” This project is built using pure JavaScript, HTML, and CSS, and utilizes SVG for most of the graphics and animations. More information about this project can be found on my GitHub repository at [https://github.com/vishesh-learn/dotbox-web]. Through this project, I have been able to further develop my skills in web development and continue to learn and grow as a developer.
+
+---------------------
+* I started Web development in my teenage with basic HTML.
+* I used computor a lot and learnt a lot from teenage to current date.
+* I started learning programming languages in my college times on my own by creating software products and collage practicals.
+* I often teach kids near me thier school subjects specially computer subjects.
+* I also used to help my classmates in college specially related to technologies.
+* When I worked in Mitr Learning & Media Pvt. Ltd., I worked in a team to develop web applications using HTML, CSS and sometime JavaScript. I used to provide suggestion or share idea about better productivity and more efficiency. Also, sometimes I helped my team members in the best way I could.
+* I am resourceful.
+* While writing code for web development I often write new method for performing tasks. I always try to find new way a code can be written to give better output improving robustness, perfomance scalability.
+* While debugging a code in web development, I track the issue from end to source, often by reading error messages or console logs at potential steps.
+* I always try to make my code as simple as it can be in meaningful way. I write them in a way that can be easily understood after long time by me or others.
+* I brake down codes so they can work separately within themselves and also can be debugged separately. This way modifiying or debugging them becomes much easier.
+* Currently I wort at Bluehance360 LLP as Juniour Web Developer. Here I developed several full stack websites using Wix Platform with Velo coding.
