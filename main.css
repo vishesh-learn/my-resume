@@ -1,66 +1,368 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}
-body{background:#FFF;line-height:1;text-align:left;font-feature-settings:"liga" 0;-moz-font-feature-settings:"liga" off}
-.document.skn-tml3 table{border-collapse:collapse;border-spacing:0;font-size:inherit;color:inherit;width:100%}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent
+}
 
-.document.skn-tml3 ul,.document.skn-tml3 li{margin:5px 0 0 10px;padding:0}
-.document.skn-tml3 ul li{margin:0 0 0 13px;padding:0 0 0 10px}
+body {
+  background: #FFF;
+  line-height: 1;
+  text-align: left;
+  font-feature-settings: "liga" 0;
+  -moz-font-feature-settings: "liga" off
+}
 
-.document.skn-tml3 .paddedline{display:block}
-.document.skn-tml3 .jobtitle,.document.skn-tml3 .degree,.document.skn-tml3 .companyname,.document.skn-tml3 .programline{color:#343b40}
-.document.skn-tml3 .jobtitle,.document.skn-tml3 .degree,.document.skn-tml3 .txt-bold{font-weight:bold}
-.document.skn-tml3 .datesWrapper{float:right;font-style:italic}
-.document.skn-tml3 .displayNoneThisField{display:none}
-.document.skn-tml3 .flt-right{float:right}
+.document table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: inherit;
+  color: inherit;
+  width: 100%
+}
 
-.document.skn-tml3{color:#343b40;background-color:#FFF!important;word-wrap:break-word}
-.document.skn-tml3 .name{font-weight:bold;font-size:15px;line-height:17px;padding:0;text-align:left;text-transform:uppercase;letter-spacing:1px;color:#343b40}
-.document.skn-tml3 .profTitle{padding-bottom:3px}
-.document.skn-tml3 .paragraph{position:relative}
-.document.skn-tml3 .address{position:relative;text-align:left;font-size:0.917em;line-height:1.25em}
-.document.skn-tml3 .address{margin:0}
-.document.skn-tml3 .table_wrapper{width:100%;margin-top:0}
-.document.skn-tml3 table.skills th,.document.skn-tml3 table.skills td{width:20%;text-align:center}
-.document.skn-tml3 table.skills th{text-decoration:underline}
-.document.skn-tml3 table.skills .skillname,.document.skn-tml3 table.skills .skillrating{text-align:left;width:35%}
-.document.skn-tml3 table.skills .skillrating{width:20%}
-.document.skn-tml3 table.skills .skillyears,.document.skn-tml3 table.skills .skilllast{width:19%}
-.document.skn-tml3 table.skills .pad1{width:5%}
-.document.skn-tml3 table.skills .pad2,.document.skn-tml3 table.skills .pad3{width:1%}
-.document.skn-tml3 .heading{clear:both;font-weight:bold;text-transform:uppercase;color:#343b40}
-.document.skn-tml3 .sectiontitle{letter-spacing:1px}
+.document ul,
+.document li {
+  margin: 5px 0 0 10px;
+  padding: 0
+}
+
+.document ul li {
+  margin: 0 0 0 13px;
+  padding: 0 0 0 10px
+}
+
+.document .paddedline {
+  display: block
+}
+
+.document .jobtitle,
+.document .degree,
+.document .companyname,
+.document .programline {
+  color: #343b40
+}
+
+.document .jobtitle,
+.document .degree,
+.document .txt-bold {
+  font-weight: bold
+}
+
+.document .datesWrapper {
+  float: right;
+  font-style: italic
+}
+
+.document .displayNoneThisField {
+  display: none
+}
+
+.document .flt-right {
+  float: right
+}
+
+.document {
+  color: #343b40;
+  background-color: #FFF !important;
+  word-wrap: break-word
+}
+
+.document .name {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  padding: 0;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #343b40
+}
+
+.document .profTitle {
+  padding-bottom: 3px
+}
+
+.document .paragraph {
+  position: relative
+}
+
+.document .address {
+  position: relative;
+  text-align: left;
+  font-size: 0.917em;
+  line-height: 1.25em
+}
+
+.document .address {
+  margin: 0
+}
+
+.document .table_wrapper {
+  width: 100%;
+  margin-top: 0
+}
+
+.document table.skills th,
+.document table.skills td {
+  width: 20%;
+  text-align: center
+}
+
+.document table.skills th {
+  text-decoration: underline
+}
+
+.document table.skills .skillname,
+.document table.skills .skillrating {
+  text-align: left;
+  width: 35%
+}
+
+.document table.skills .skillrating {
+  width: 20%
+}
+
+.document table.skills .skillyears,
+.document table.skills .skilllast {
+  width: 19%
+}
+
+.document table.skills .pad1 {
+  width: 5%
+}
+
+.document table.skills .pad2,
+.document table.skills .pad3 {
+  width: 1%
+}
+
+.document .heading {
+  clear: both;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #343b40
+}
+
+.document .sectiontitle {
+  letter-spacing: 1px
+}
 
 /*Timeline classes*/
-.document.skn-tml3 .section{border-left:1px solid #434d54;padding-left:20px;margin-left:17px;position:relative}
-.document.skn-tml3 .firstsection,.document.skn-tml3 .SECTION_CNTC,.document.skn-tml3 .firstsection,.document.skn-tml3 .namesec{border:none!important}
-.document.skn-tml3 .SECTION_CNTC+.section:before{content:"";top:0;left:-3px;width:5px;height:5px;background:#fff;position:absolute;z-index:1}
-.document.skn-tml3 .firstsection{padding-bottom:0}
-.document.skn-tml3 .heading{position:relative}
-.document.skn-tml3 .heading:before{display:block;position:absolute;top:4px;left:-25px;content:"";height:8px;width:8px;border:1px solid #434d54;border-radius:100%;background:#fff;z-index:2}
+.document .section {
+  border-left: 1px solid #434d54;
+  padding-left: 20px;
+  margin-left: 17px;
+  position: relative
+}
 
-.document.skn-tml3,.document.skn-tml3 table{line-height:17px}
-.document.skn-tml3.pagesize{width:548px}
-.document.skn-tml3.fontsize,.document.skn-tml3 .lang-sec.infobarsec .paragraph *,.document.skn-tml3 .lang-sec.infotilesec .paragraph *,.document.skn-tml3 .skli-sec .paragraph *{font-size:12px}
-.document.skn-tml3.fontface{font-family:Verdana}
-.document.skn-tml3.vmargins{padding-top:32px;padding-bottom:32px}
-.document.skn-tml3.hmargins{padding-left:32px;padding-right:32px}
-.document.skn-tml3 .section{padding-top:15px !important;border-color:#343b40}
-.document.skn-tml3 .firstsection,.document.skn-tml3 .SECTION_CNTC{margin-top:0;padding-top:0!important}
-.document.skn-tml3 .paragraph{margin-top:10px}
-.document.skn-tml3 .firstparagraph{margin-top:0}
-.document.skn-tml3 .singlecolumn,.document.skn-tml3 .maincolumn{margin-left:0px}
-.document.skn-tml3 .sectiontitle{font-size:13px;line-height:28px}
-.document.skn-tml3 .heading{margin-bottom:5px}
-.document.skn-tml3 table.skills td{padding-top:5px}
-.document.skn-tml3 .name{font-size:29px;line-height:34px}
-.document.skn-tml3 .profTitle{font-size:16px;line-height:26px}
-.document.skn-tml3 .address{font-size:12px;line-height:17px}
-.document.skn-tml3 .heading{color:#343b40}
-.document.skn-tml3 .lang-sec .heading,.document.skn-tml3 .skli-sec .heading{margin-left:-0px}
-.document.skn-tml3.MPR .hide-bar .field-ratt{display:none}
+.document .firstsection,
+.document .SECTION_CNTC,
+.document .firstsection,
+.document .namesec {
+  border: none !important
+}
+
+.document .SECTION_CNTC+.section:before {
+  content: "";
+  top: 0;
+  left: -3px;
+  width: 5px;
+  height: 5px;
+  background: #fff;
+  position: absolute;
+  z-index: 1
+}
+
+.document .firstsection {
+  padding-bottom: 0
+}
+
+.document .heading {
+  position: relative
+}
+
+.document .heading:before {
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: -25px;
+  content: "";
+  height: 8px;
+  width: 8px;
+  border: 1px solid #434d54;
+  border-radius: 100%;
+  background: #fff;
+  z-index: 2
+}
+
+.document,
+.document table {
+  line-height: 17px
+}
+
+.document {
+  width: 548px
+}
+
+.document,
+.document .lang-sec.infobarsec .paragraph *,
+.document .lang-sec.infotilesec .paragraph *,
+.document .skli-sec .paragraph * {
+  font-size: 12px
+}
+
+.document {
+  font-family: Verdana
+}
+
+.document {
+  padding-top: 32px;
+  padding-bottom: 32px
+}
+
+.document {
+  padding-left: 32px;
+  padding-right: 32px
+}
+
+.document .section {
+  padding-top: 15px !important;
+  border-color: #343b40
+}
+
+.document .firstsection,
+.document .SECTION_CNTC {
+  margin-top: 0;
+  padding-top: 0 !important
+}
+
+.document .paragraph {
+  margin-top: 10px
+}
+
+.document .firstparagraph {
+  margin-top: 0
+}
+
+.document .singlecolumn,
+.document .maincolumn {
+  margin-left: 0px
+}
+
+.document .sectiontitle {
+  font-size: 13px;
+  line-height: 28px
+}
+
+.document .heading {
+  margin-bottom: 5px
+}
+
+.document table.skills td {
+  padding-top: 5px
+}
+
+.document .name {
+  font-size: 29px;
+  line-height: 34px
+}
+
+.document .profTitle {
+  font-size: 16px;
+  line-height: 26px
+}
+
+.document .address {
+  font-size: 12px;
+  line-height: 17px
+}
+
+.document .heading {
+  color: #343b40
+}
+
+.document .lang-sec .heading,
+.document .skli-sec .heading {
+  margin-left: -0px
+}
+
+.document .hide-bar .field-ratt {
+  display: none
+}
 
 /*Timeline*/
-.document.skn-tml3 .heading:before{border-color:#343b40;top:9px}
-.document.skn-tml3 .SECTION_CNTC+.section:before{height:34px}
+.document .heading:before {
+  border-color: #343b40;
+  top: 9px
+}
+
+.document .SECTION_CNTC+.section:before {
+  height: 34px
+}
 
 /* custom css */
 body a {
