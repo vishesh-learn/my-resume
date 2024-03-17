@@ -91,8 +91,15 @@ body {
 }
 
 .document ul li {
-  margin: 0 0 0 13px;
-  padding: 0 0 0 10px
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 13px;
+  padding-left: 10px
+}
+
+.document ul.dot-list > li {
+  margin-bottom: 8px;
 }
 
 .document .paddedline {
