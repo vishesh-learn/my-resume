@@ -1,3 +1,7 @@
+:root {
+  --bg-color: #ffffff;
+}
+
 html,
 body,
 div,
@@ -65,11 +69,11 @@ td {
   border: 0;
   outline: 0;
   vertical-align: baseline;
-  background: transparent
+  background: transparent;
 }
 
 body {
-  background: #FFF;
+  background: var(--bg-color);
   line-height: 1;
   text-align: left;
   font-feature-settings: "liga" 0;
@@ -134,7 +138,6 @@ body {
 
 .document {
   color: #343b40;
-  background-color: #FFF !important;
   word-wrap: break-word
 }
 
@@ -239,7 +242,6 @@ body {
   left: -3px;
   width: 5px;
   height: 5px;
-  background: #fff;
   position: absolute;
   z-index: 1
 }
@@ -262,17 +264,12 @@ body {
   width: 8px;
   border: 1px solid #434d54;
   border-radius: 100%;
-  background: #fff;
   z-index: 2
 }
 
 .document,
 .document table {
   line-height: 17px
-}
-
-.document {
-  width: 548px
 }
 
 .document,
@@ -288,12 +285,9 @@ body {
 
 .document {
   padding-top: 32px;
-  padding-bottom: 32px
-}
-
-.document {
-  padding-left: 32px;
-  padding-right: 32px
+  padding-right: 32px;
+  padding-bottom: 32px;
+  padding-left: 8px;
 }
 
 .document .section {
@@ -364,6 +358,7 @@ body {
 /*Timeline*/
 .document .heading:before {
   border-color: #343b40;
+  background-color: var(--bg-color);
   top: 9px
 }
 
