@@ -85,12 +85,11 @@ body {
   border-spacing: 0;
   font-size: inherit;
   color: inherit;
-  width: 100%
 }
 
 .document ul,
 .document li {
-  margin: 5px 0 0 10px;
+  margin: 5px 50px 0 10px;
   padding: 0
 }
 
@@ -100,6 +99,10 @@ body {
   margin-bottom: 0;
   margin-left: 13px;
   padding-left: 10px
+}
+
+ul ul {
+  width: max-content;
 }
 
 .document ul.dot-list > li {
@@ -369,10 +372,6 @@ body {
 /* custom css */
 body a {
   color: unset;
-}
-
-.circled-list li {
-  list-style-type: circle;
 }
 
 .sortableInner {
