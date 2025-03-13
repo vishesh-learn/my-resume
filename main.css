@@ -304,12 +304,8 @@ ul ul {
   padding-top: 0 !important
 }
 
-.document .paragraph {
+.document .paragraph:not(:first-child) {
   margin-top: 10px
-}
-
-.document .firstparagraph {
-  margin-top: 0
 }
 
 .document .singlecolumn,
