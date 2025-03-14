@@ -89,7 +89,7 @@ body {
 
 .document ul,
 .document li {
-  margin: 5px 50px 0 10px;
+  margin: 5px 0px 0 10px;
   padding: 0
 }
 
@@ -98,11 +98,13 @@ body {
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 13px;
-  padding-left: 10px
+  padding-left: 10px;
+
+  break-inside: avoid;
 }
 
 ul ul {
-  width: max-content;
+  max-width: 100%;
 }
 
 .document ul.dot-list>li {
@@ -157,10 +159,6 @@ ul ul {
 
 .document .profTitle {
   padding-bottom: 3px
-}
-
-.document .paragraph {
-  position: relative
 }
 
 .document .address {
@@ -233,13 +231,12 @@ ul ul {
   border-color: #343b40;
   border-left: 1px solid;
   border-bottom: 1px solid transparent;
-  
+
   position: relative
 }
 
-.document .firstsection,
+.document .section:first-child,
 .document .SECTION_CNTC,
-.document .firstsection,
 .document .namesec {
   border: none !important
 }
@@ -254,7 +251,7 @@ ul ul {
   z-index: 1
 }
 
-.document .firstsection {
+.document .section:first-child {
   padding-bottom: 0
 }
 
@@ -288,7 +285,7 @@ ul ul {
 }
 
 .document {
-  font-family: Verdana
+  font-family: Verdana;
 }
 
 .document {
@@ -298,14 +295,18 @@ ul ul {
   padding-left: 8px;
 }
 
-.document .firstsection,
+.document .section:first-child,
 .document .SECTION_CNTC {
   margin-top: 0;
   padding-top: 0 !important
 }
 
 .document .paragraph:not(:first-child) {
-  margin-top: 10px
+  margin-top: 10px;
+}
+
+.document .maincolumn {
+  margin-left: 0px
 }
 
 .document .sectiontitle {
@@ -317,8 +318,8 @@ ul ul {
   margin-bottom: 5px
 }
 
-.document table.skills td {
-  padding-top: 5px
+.skills .paragraph {
+  column-count: 2;
 }
 
 .document .name {
