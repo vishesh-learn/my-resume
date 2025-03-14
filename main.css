@@ -426,6 +426,6 @@ body a {
   border-left: 1px solid;
 }
 
-.section {
+.section:not(.skills) {
   page-break-inside: avoid;
 }
