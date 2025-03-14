@@ -105,7 +105,7 @@ ul ul {
   width: max-content;
 }
 
-.document ul.dot-list > li {
+.document ul.dot-list>li {
   margin-bottom: 8px;
 }
 
@@ -226,9 +226,14 @@ ul ul {
 
 /*Timeline classes*/
 .document .section {
-  border-left: 1px solid #434d54;
+  padding-top: 15px !important;
   padding-left: 20px;
   margin-left: 17px;
+
+  border-color: #343b40;
+  border-left: 1px solid;
+  border-bottom: 1px solid transparent;
+  
   position: relative
 }
 
@@ -293,11 +298,6 @@ ul ul {
   padding-left: 8px;
 }
 
-.document .section {
-  padding-top: 15px !important;
-  border-color: #343b40
-}
-
 .document .firstsection,
 .document .SECTION_CNTC {
   margin-top: 0;
@@ -306,11 +306,6 @@ ul ul {
 
 .document .paragraph:not(:first-child) {
   margin-top: 10px
-}
-
-.document .singlecolumn,
-.document .maincolumn {
-  margin-left: 0px
 }
 
 .document .sectiontitle {
