@@ -429,3 +429,13 @@ body a {
 .section:not(.skills) {
   page-break-inside: avoid;
 }
+
+.projects .desc {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.labeled-link {
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}

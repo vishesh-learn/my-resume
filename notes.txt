@@ -1,3 +1,18 @@
+
+Keksi - custom product page for selected products:
+https://www.keksi.com/product-page/box-of-6-1
+ 
+Typeify - typing test (+ Custom App):
+https://www.typeify.co.uk/professional-speed-test
+ 
+Seco - Search and custom product page:
+https://www.secoprecision.com/search-products?data=pipe
+ 
+The charter Yacht - Search and e-brochure (+ API):
+https://www.thecharteryachtcompany.com/search-yacht-options
+
+----------------------
+
 In my free time, I enjoy working on my pet project, “DotBox,” a digital version of the traditional paper-and-pencil game “Dots and Boxes.” This project is built using pure JavaScript, HTML, and CSS, and utilizes SVG for most of the graphics and animations. More information about this project can be found on my GitHub repository at [https://github.com/vishesh-learn/dotbox-web]. Through this project, I have been able to further develop my skills in web development and continue to learn and grow as a developer.
 
 ---------------------
