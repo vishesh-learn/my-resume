@@ -426,7 +426,11 @@ body a {
   border-left: 1px solid;
 }
 
-.section:not(.skills) {
+/* .section {
+  page-break-inside: avoid;
+} */
+
+.section:not(.skills,.projects) {
   page-break-inside: avoid;
 }
 
