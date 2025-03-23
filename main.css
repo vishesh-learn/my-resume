@@ -87,12 +87,14 @@ body {
   color: inherit;
 }
 
+.document ol,
 .document ul,
 .document li {
   margin: 5px 0px 0 10px;
   padding: 0
 }
 
+.document ol li,
 .document ul li {
   margin-top: 0;
   margin-right: 0;
@@ -103,10 +105,14 @@ body {
   break-inside: avoid;
 }
 
+ol ol,
+ol ul,
+ul ol,
 ul ul {
   max-width: 100%;
 }
 
+.document ol.dot-list>li,
 .document ul.dot-list>li {
   margin-bottom: 8px;
 }
@@ -425,10 +431,6 @@ body a {
   padding-left: 10px;
   border-left: 1px solid;
 }
-
-/* .section {
-  page-break-inside: avoid;
-} */
 
 .section:not(.skills,.projects) {
   page-break-inside: avoid;
