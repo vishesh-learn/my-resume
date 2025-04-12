@@ -1,0 +1,7 @@
+@media screen {
+    .document {
+        max-width: 8.5in;
+        padding: 0.5in;
+        outline: 1px solid;
+    }
+}

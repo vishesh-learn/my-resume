@@ -1,447 +1,314 @@
 :root {
-  --bg-color: #ffffff;
+    --bg-color: #ffffff;
 }
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-font,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  vertical-align: baseline;
-  background: transparent;
+* {
+    box-sizing: border-box;
 }
 
 body {
-  background: var(--bg-color);
-  line-height: 1;
-  text-align: left;
-  font-feature-settings: "liga" 0;
-  -moz-font-feature-settings: "liga" off
+    background: var(--bg-color);
+    font-feature-settings: "liga" 0;
+    line-height: 1;
+    text-align: left;
+    -moz-font-feature-settings: "liga" off;
+}
+
+body a {
+    color: unset;
+}
+
+.document {
+    color: #343b40;
+    font-family: Verdana;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 32px 32px 32px 8px;
+    word-wrap: break-word;
 }
 
 .document table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  font-size: inherit;
-  color: inherit;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: inherit;
+    line-height: 17px;
+    color: inherit;
 }
 
 .document ol,
 .document ul,
 .document li {
-  margin: 5px 0px 0 10px;
-  padding: 0
+    margin: 5px 0 0 10px;
+    padding: 0;
 }
 
 .document ol li,
 .document ul li {
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 13px;
-  padding-left: 10px;
-
-  break-inside: avoid;
+    margin: 0 0 0 13px;
+    padding-left: 10px;
+    break-inside: avoid;
 }
 
 ol ol,
 ol ul,
 ul ol,
 ul ul {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .document ol.dot-list>li,
 .document ul.dot-list>li {
-  margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
-.document .paddedline {
-  display: block
+.multiline-list li:not(:last-child) {
+    margin-bottom: 10px !important;
+}
+
+.document .name {
+    color: #343b40;
+    font-size: 29px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 34px;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.document .profTitle {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 3px;
+}
+
+.document .heading {
+    clear: both;
+    color: #343b40;
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.document .heading:before {
+    background-color: var(--bg-color);
+    border: 1px solid #343b40;
+    border-radius: 100%;
+    content: "";
+    display: block;
+    height: 8px;
+    left: -25px;
+    position: absolute;
+    top: 9px;
+    width: 8px;
+    z-index: 2;
+}
+
+.document .sectiontitle {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.document .section {
+    border-color: #343b40;
+    border-left: 1px solid;
+    border-bottom: 1px solid transparent;
+    margin-left: 17px;
+    padding: 15px 0 0 20px !important;
+    position: relative;
+}
+
+.document .section:first-child,
+.document .SECTION_CNTC,
+.document .namesec {
+    border: none !important;
+    margin-top: 0;
+    padding-top: 0 !important;
+}
+
+.document .SECTION_CNTC+.section:before {
+    content: "";
+    height: 34px;
+    left: -3px;
+    position: absolute;
+    top: 0;
+    width: 5px;
+    z-index: 1;
+}
+
+.document .section:first-child {
+    padding-bottom: 0;
+}
+
+.section:not(.skills, .projects) {
+    page-break-inside: avoid;
+}
+
+.document .txt-bold,
+.document .jobtitle,
+.document .degree {
+    font-weight: bold;
 }
 
 .document .jobtitle,
 .document .degree,
 .document .companyname,
 .document .programline {
-  color: #343b40
-}
-
-.document .jobtitle,
-.document .degree,
-.document .txt-bold {
-  font-weight: bold
+    color: #343b40;
 }
 
 .document .datesWrapper {
-  float: right;
-  font-style: italic
-}
-
-.document .displayNoneThisField {
-  display: none
+    float: right;
+    font-style: italic;
 }
 
 .document .flt-right {
-  float: right
+    float: right;
 }
 
-.document {
-  color: #343b40;
-  word-wrap: break-word
+.document .displayNoneThisField,
+.document .hide-bar .field-ratt {
+    display: none;
 }
 
-.document .name {
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 17px;
-  padding: 0;
-  text-align: left;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #343b40
+.document .paddedline {
+    display: block;
 }
 
-.document .profTitle {
-  padding-bottom: 3px
+.document .paragraph:not(:first-child) {
+    margin-top: 10px;
+}
+
+.education .paragraph:not(:first-child) {
+    margin-top: 14px !important;
 }
 
 .document .address {
-  position: relative;
-  text-align: left;
-  font-size: 0.917em;
-  line-height: 1.25em
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0;
+    position: relative;
+    text-align: left;
 }
 
-.document .address {
-  margin: 0
+.document .maincolumn {
+    margin-left: 0;
 }
 
 .document .table_wrapper {
-  width: 100%;
-  margin-top: 0
+    margin-top: 0;
+    width: 100%;
 }
 
 .document table.skills th,
 .document table.skills td {
-  width: 20%;
-  text-align: center
+    text-align: center;
+    width: 20%;
 }
 
 .document table.skills th {
-  text-decoration: underline
+    text-decoration: underline;
 }
 
 .document table.skills .skillname,
 .document table.skills .skillrating {
-  text-align: left;
-  width: 35%
+    text-align: left;
+    width: 35%;
 }
 
 .document table.skills .skillrating {
-  width: 20%
+    width: 20%;
 }
 
 .document table.skills .skillyears,
 .document table.skills .skilllast {
-  width: 19%
+    width: 19%;
 }
 
 .document table.skills .pad1 {
-  width: 5%
+    width: 5%;
 }
 
 .document table.skills .pad2,
 .document table.skills .pad3 {
-  width: 1%
-}
-
-.document .heading {
-  clear: both;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #343b40
-}
-
-.document .sectiontitle {
-  letter-spacing: 1px
-}
-
-/*Timeline classes*/
-.document .section {
-  padding-top: 15px !important;
-  padding-left: 20px;
-  margin-left: 17px;
-
-  border-color: #343b40;
-  border-left: 1px solid;
-  border-bottom: 1px solid transparent;
-
-  position: relative
-}
-
-.document .section:first-child,
-.document .SECTION_CNTC,
-.document .namesec {
-  border: none !important
-}
-
-.document .SECTION_CNTC+.section:before {
-  content: "";
-  top: 0;
-  left: -3px;
-  width: 5px;
-  height: 5px;
-  position: absolute;
-  z-index: 1
-}
-
-.document .section:first-child {
-  padding-bottom: 0
-}
-
-.document .heading {
-  position: relative
-}
-
-.document .heading:before {
-  display: block;
-  position: absolute;
-  top: 4px;
-  left: -25px;
-  content: "";
-  height: 8px;
-  width: 8px;
-  border: 1px solid #434d54;
-  border-radius: 100%;
-  z-index: 2
-}
-
-.document,
-.document table {
-  line-height: 17px
-}
-
-.document,
-.document .lang-sec.infobarsec .paragraph *,
-.document .lang-sec.infotilesec .paragraph *,
-.document .skli-sec .paragraph * {
-  font-size: 12px
-}
-
-.document {
-  font-family: Verdana;
-}
-
-.document {
-  padding-top: 32px;
-  padding-right: 32px;
-  padding-bottom: 32px;
-  padding-left: 8px;
-}
-
-.document .section:first-child,
-.document .SECTION_CNTC {
-  margin-top: 0;
-  padding-top: 0 !important
-}
-
-.document .paragraph:not(:first-child) {
-  margin-top: 10px;
-}
-
-.document .maincolumn {
-  margin-left: 0px
-}
-
-.document .sectiontitle {
-  font-size: 13px;
-  line-height: 28px
-}
-
-.document .heading {
-  margin-bottom: 5px
+    width: 1%;
 }
 
 .skills .paragraph {
-  column-count: 2;
+    column-count: 2;
 }
 
-.document .name {
-  font-size: 29px;
-  line-height: 34px
-}
-
-.document .profTitle {
-  font-size: 16px;
-  line-height: 26px
-}
-
-.document .address {
-  font-size: 12px;
-  line-height: 17px
-}
-
-.document .heading {
-  color: #343b40
+.document .lang-sec.infobarsec .paragraph *,
+.document .lang-sec.infotilesec .paragraph *,
+.document .skli-sec .paragraph * {
+    font-size: 12px;
 }
 
 .document .lang-sec .heading,
 .document .skli-sec .heading {
-  margin-left: -0px
-}
-
-.document .hide-bar .field-ratt {
-  display: none
-}
-
-/*Timeline*/
-.document .heading:before {
-  border-color: #343b40;
-  background-color: var(--bg-color);
-  top: 9px
-}
-
-.document .SECTION_CNTC+.section:before {
-  height: 34px
-}
-
-/* custom css */
-body a {
-  color: unset;
-}
-
-.sortableInner {
-  width: max-content;
+    margin-left: 0;
 }
 
 .hBar-container {
-  display: flex;
+    display: flex;
+    justify-content: space-between;
 }
 
 .hBar {
-  padding-right: 10px;
-  border-right: 1px solid;
-  margin-right: 10px;
-  min-width: 296px;
-}
-
-.multiline-list li:not(:last-child) {
-  margin-bottom: 10px !important;
+    margin-right: 10px;
+    min-width: 296px;
 }
 
 .hBarRightColumn {
-  display: flex;
-  align-items: center;
+    align-items: center;
+    display: flex;
+    border-left: 1px solid;
+    padding-left: 10px;
 }
 
-.education .paragraph:not(:first-child) {
-  margin-top: 14px !important;
+.sortableInner {
+    width: max-content;
 }
 
 .labelValue {
-  height: 25px;
-}
-
-.labelValue .label::after {
-  content: ":";
-  float: right;
+    height: 25px;
 }
 
 .labelValue .label {
-  font-weight: bold;
-  width: 108px;
-  display: inline-block;
+    display: inline-block;
+    font-weight: bold;
+    width: 108px;
 }
 
-.labelValue.full .label {
-  width: auto;
+.labelValue .label::after {
+    content: ":";
+    float: right;
 }
 
 .labelValue .value {
-  display: inline-block;
+    display: inline-block;
+}
+
+.labelValue.full .label {
+    width: auto;
 }
 
 .labelValue:nth-child(1) {
-  padding-right: 10px;
+    padding-right: 10px;
 }
 
 .labelValue:nth-child(2) {
-  padding-left: 10px;
-  border-left: 1px solid;
-}
-
-.section:not(.skills,.projects) {
-  page-break-inside: avoid;
+    border-left: 1px solid;
+    padding-left: 10px;
 }
 
 .projects .desc {
-  margin-top: 0.4em;
-  margin-bottom: 0.4em;
+    margin: 0.4em 0;
 }
 
 .labeled-link {
-  font-size: 0.9em;
-  margin-bottom: 0.5em;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
 }
