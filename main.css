@@ -23,8 +23,9 @@ body a {
     font-family: Verdana;
     font-size: 12px;
     line-height: 17px;
-    padding: 32px 32px 32px 8px;
     word-wrap: break-word;
+
+    margin: 3em auto;
 }
 
 .document table {
@@ -115,31 +116,16 @@ ul ul {
     border-color: #343b40;
     border-left: 1px solid;
     border-bottom: 1px solid transparent;
-    margin-left: 17px;
     padding: 15px 0 0 20px !important;
     position: relative;
 }
 
 .document .section:first-child,
-.document .SECTION_CNTC,
-.document .namesec {
+.document .section:nth-child(2),
+.document .name {
     border: none !important;
     margin-top: 0;
     padding-top: 0 !important;
-}
-
-.document .SECTION_CNTC+.section:before {
-    content: "";
-    height: 34px;
-    left: -3px;
-    position: absolute;
-    top: 0;
-    width: 5px;
-    z-index: 1;
-}
-
-.document .section:first-child {
-    padding-bottom: 0;
 }
 
 .section:not(.skills, .projects) {
