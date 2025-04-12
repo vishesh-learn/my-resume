@@ -90,6 +90,10 @@ ul ul {
     margin-bottom: 5px;
     position: relative;
     text-transform: uppercase;
+
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 28px;
 }
 
 .document .heading:before {
@@ -104,12 +108,6 @@ ul ul {
     top: 9px;
     width: 8px;
     z-index: 2;
-}
-
-.document .sectiontitle {
-    font-size: 13px;
-    letter-spacing: 1px;
-    line-height: 28px;
 }
 
 .document .section {
@@ -171,7 +169,7 @@ ul ul {
     margin-top: 14px !important;
 }
 
-.document .address {
+.document .contact {
     font-size: 12px;
     line-height: 17px;
     margin: 0;
