@@ -25,6 +25,7 @@ body a {
     line-height: 17px;
     word-wrap: break-word;
 
+    padding-left: 4px;
     margin: 3em auto;
 }
 
