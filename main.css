@@ -127,7 +127,7 @@ ul ul {
     padding-top: 0 !important;
 }
 
-.section:not(.skills, .projects) {
+.section:not(.skills, .projects, .history) {
     page-break-inside: avoid;
 }
 
@@ -147,6 +147,8 @@ ul ul {
 .document .datesWrapper {
     float: right;
     font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .document .flt-right {
