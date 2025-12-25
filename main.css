@@ -144,6 +144,11 @@ ul ul {
     color: #343b40;
 }
 
+.document .section.role {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
 .document .datesWrapper {
     float: right;
     font-style: italic;
