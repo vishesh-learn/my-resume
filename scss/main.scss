@@ -163,17 +163,12 @@ body {
         }
 
         .projects {
-            .multiline-list li:not(:last-child) {
+            .paragraph li:not(:last-child) {
                 margin-bottom: 10px !important;
             }
 
-            .desc {
-                margin: 0.4em 0;
-            }
-
-            .labeled-link {
-                font-size: 0.9em;
-                margin-bottom: 0.5em;
+            h4, p {
+                margin-bottom: 6px;
             }
         }
 

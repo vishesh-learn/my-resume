@@ -132,15 +132,11 @@ body .document .history .paragraph {
 body .document .history .paragraph:not(:last-child) {
   margin-bottom: 14px;
 }
-body .document .projects .multiline-list li:not(:last-child) {
+body .document .projects .paragraph li:not(:last-child) {
   margin-bottom: 10px !important;
 }
-body .document .projects .desc {
-  margin: 0.4em 0;
-}
-body .document .projects .labeled-link {
-  font-size: 0.9em;
-  margin-bottom: 0.5em;
+body .document .projects h4, body .document .projects p {
+  margin-bottom: 6px;
 }
 body .document .education {
   break-inside: avoid;
