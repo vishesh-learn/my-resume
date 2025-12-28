@@ -1,4 +1,5 @@
 Add projects:
-    * Rohi
-    * Hagah
-    * Ozzy School
+    * Rohi - https://learning.rohiapp.com, https://play.google.com/store/apps/details?id=com.rohiapp.app
+    * Hagah - https://play.google.com/store/apps/details?id=com.hagah.meditation
+    * Ozzy School - https://www.ozzy.school/, https://login.ozzy.school/
+    * The Mindset IQ - https://www.themindsetiq.com/
