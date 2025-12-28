@@ -1,0 +1,16 @@
+@media screen {
+    body {
+        .document {
+            width: 8.5in;
+        }
+    }
+}
+
+@media screen and (min-width: 8.5in) {
+    body {
+        .document {
+            padding: 0.5in;
+            outline: 1px solid;
+        }
+    }
+}

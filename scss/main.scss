@@ -1,0 +1,215 @@
+:root {
+    --bg-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-color);
+    font-feature-settings: "liga" 0;
+    -moz-font-feature-settings: "liga" off;
+    line-height: 1;
+    text-align: left;
+
+    a {
+        color: unset;
+    }
+
+    ol,
+    ul {
+
+        ol,
+        ul {
+            max-width: 100%;
+        }
+    }
+
+    ol li,
+    ul li {
+        margin: 0 0 0 13px;
+        padding-left: 10px;
+        break-inside: avoid;
+    }
+
+    ol.dot-list>li,
+    ul.dot-list>li {
+        margin-bottom: 8px;
+    }
+
+    .document {
+        color: #343b40;
+        font-family: Verdana;
+        font-size: 12px;
+        line-height: 17px;
+        word-wrap: break-word;
+        padding-left: 4px;
+        margin: 3em auto;
+
+        ol,
+        ul,
+        li {
+            margin: 5px 0 0 10px;
+            padding: 0;
+        }
+
+        .section {
+            border-color: #343b40;
+            border-left: 1px solid;
+            border-bottom: 1px solid transparent;
+            position: relative;
+            padding-left: 20px !important;
+
+            &:not(:last-child) {
+                padding-bottom: 15px;
+            }
+
+            &.role {
+                font-weight: bold;
+            }
+
+            .heading {
+                clear: both;
+                color: #343b40;
+                font-weight: bold;
+                margin-bottom: 5px;
+                position: relative;
+                text-transform: uppercase;
+                font-size: 13px;
+                letter-spacing: 1px;
+                line-height: 28px;
+
+                &::before {
+                    background-color: var(--bg-color);
+                    border: 1px solid #343b40;
+                    border-radius: 100%;
+                    content: "";
+                    display: block;
+                    height: 8px;
+                    width: 8px;
+                    left: -25px;
+                    top: 9px;
+                    position: absolute;
+                    z-index: 2;
+                }
+            }
+        }
+
+        .name {
+            color: #343b40;
+            font-size: 29px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            line-height: 34px;
+            text-transform: uppercase;
+            border: none;
+
+            break-inside: avoid;
+        }
+
+        .role {
+            border: none;
+
+            break-inside: avoid;
+        }
+
+        .contact {
+            font-size: 12px;
+            line-height: 17px;
+            text-align: left;
+
+            break-inside: avoid;
+        }
+
+        .summary {
+            break-inside: avoid;
+        }
+
+        .skills {
+            .paragraph {
+                column-count: 2;
+            }
+        }
+
+        .history {
+            .jobtitle {
+                font-weight: bold;
+                color: #343b40;
+            }
+
+            .companyname {
+                color: #343b40;
+            }
+
+            .datesWrapper {
+                float: right;
+                font-style: italic;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            .paddedline {
+                display: block;
+            }
+
+            .paragraph {
+                break-inside: avoid;
+
+                &:not(:last-child) {
+                    margin-bottom: 14px;
+                }
+            }
+        }
+
+        .projects {
+            .multiline-list li:not(:last-child) {
+                margin-bottom: 10px !important;
+            }
+
+            .desc {
+                margin: 0.4em 0;
+            }
+
+            .labeled-link {
+                font-size: 0.9em;
+                margin-bottom: 0.5em;
+            }
+        }
+
+        .education {
+            break-inside: avoid;
+
+            .school-name {
+                color: #343b40;
+            }
+
+            .degree {
+                font-weight: bold;
+                color: #343b40;
+            }
+
+            .paragraph:not(:first-child) {
+                margin-top: 14px !important;
+            }
+
+            .paddedline {
+                display: block;
+            }
+
+            .hBar-container {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .hBar {
+                margin-right: 10px;
+                min-width: 296px;
+            }
+
+            .sortableInner {
+                width: max-content;
+            }
+        }
+    }
+}

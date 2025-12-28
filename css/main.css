@@ -1,0 +1,173 @@
+:root {
+  --bg-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-color);
+  font-feature-settings: "liga" 0;
+  -moz-font-feature-settings: "liga" off;
+  line-height: 1;
+  text-align: left;
+}
+body a {
+  color: unset;
+}
+body ol ol,
+body ol ul,
+body ul ol,
+body ul ul {
+  max-width: 100%;
+}
+body ol li,
+body ul li {
+  margin: 0 0 0 13px;
+  padding-left: 10px;
+  break-inside: avoid;
+}
+body ol.dot-list > li,
+body ul.dot-list > li {
+  margin-bottom: 8px;
+}
+body .document {
+  color: #343b40;
+  font-family: Verdana;
+  font-size: 12px;
+  line-height: 17px;
+  word-wrap: break-word;
+  padding-left: 4px;
+  margin: 3em auto;
+}
+body .document ol,
+body .document ul,
+body .document li {
+  margin: 5px 0 0 10px;
+  padding: 0;
+}
+body .document .section {
+  border-color: #343b40;
+  border-left: 1px solid;
+  border-bottom: 1px solid transparent;
+  position: relative;
+  padding-left: 20px !important;
+}
+body .document .section:not(:last-child) {
+  padding-bottom: 15px;
+}
+body .document .section.role {
+  font-weight: bold;
+}
+body .document .section .heading {
+  clear: both;
+  color: #343b40;
+  font-weight: bold;
+  margin-bottom: 5px;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+body .document .section .heading::before {
+  background-color: var(--bg-color);
+  border: 1px solid #343b40;
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 8px;
+  width: 8px;
+  left: -25px;
+  top: 9px;
+  position: absolute;
+  z-index: 2;
+}
+body .document .name {
+  color: #343b40;
+  font-size: 29px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 34px;
+  text-transform: uppercase;
+  border: none;
+  break-inside: avoid;
+}
+body .document .role {
+  border: none;
+  break-inside: avoid;
+}
+body .document .contact {
+  font-size: 12px;
+  line-height: 17px;
+  text-align: left;
+  break-inside: avoid;
+}
+body .document .summary {
+  break-inside: avoid;
+}
+body .document .skills .paragraph {
+  column-count: 2;
+}
+body .document .history .jobtitle {
+  font-weight: bold;
+  color: #343b40;
+}
+body .document .history .companyname {
+  color: #343b40;
+}
+body .document .history .datesWrapper {
+  float: right;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+body .document .history .paddedline {
+  display: block;
+}
+body .document .history .paragraph {
+  break-inside: avoid;
+}
+body .document .history .paragraph:not(:last-child) {
+  margin-bottom: 14px;
+}
+body .document .projects .multiline-list li:not(:last-child) {
+  margin-bottom: 10px !important;
+}
+body .document .projects .desc {
+  margin: 0.4em 0;
+}
+body .document .projects .labeled-link {
+  font-size: 0.9em;
+  margin-bottom: 0.5em;
+}
+body .document .education {
+  break-inside: avoid;
+}
+body .document .education .school-name {
+  color: #343b40;
+}
+body .document .education .degree {
+  font-weight: bold;
+  color: #343b40;
+}
+body .document .education .paragraph:not(:first-child) {
+  margin-top: 14px !important;
+}
+body .document .education .paddedline {
+  display: block;
+}
+body .document .education .hBar-container {
+  display: flex;
+  justify-content: space-between;
+}
+body .document .education .hBar {
+  margin-right: 10px;
+  min-width: 296px;
+}
+body .document .education .sortableInner {
+  width: max-content;
+}
+
+/*# sourceMappingURL=main.css.map */
