@@ -1,8 +1,8 @@
 Add projects:
+    * Claires
+        - https://www.claires.com/
+    * The Mindset IQ
+        - https://www.themindsetiq.com/
     * Rohi
         - https://learning.rohiapp.com
         - https://play.google.com/store/apps/details?id=com.rohiapp.app
-    * Hagah
-        - https://play.google.com/store/apps/details?id=com.hagah.meditation
-    * The Mindset IQ
-        - https://www.themindsetiq.com/
