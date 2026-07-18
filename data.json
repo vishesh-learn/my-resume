@@ -1,0 +1,191 @@
+{
+    "name": {
+        "firstName": "Vishesh",
+        "lastName": "Vishwakarma"
+    },
+    "role": "Full Stack Developer",
+    "contact": {
+        "address": "Naigaon, Vasai-Virar, Maharashtra, India",
+        "email": "vishesh.learn@gmail.com",
+        "phone": "+91 7768801141"
+    },
+    "links": [
+        {
+            "label": "GitHub",
+            "value": "github.com/vishesh-learn"
+        },
+        {
+            "label": "LinkedIn",
+            "value": "linkedin.com/in/visheshvishwakarma"
+        }
+    ],
+    "professionalSummary": "Full Stack Developer with hands-on experience building and deploying production-ready web and mobile applications for real clients. Comfortable communicating with clients to brainstorm and shape a clear build plan and design system, then translating requirements into clean, maintainable code while managing the complete application lifecycle from concept to development to deployment. Additionally leverage AI tools and APIs to build smarter features, accelerate development, and improve code quality.",
+    "skills": [
+        {
+            "category": "Frontend",
+            "items": [
+                [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                [
+                    "TypeScript",
+                    "Bootstrap",
+                    "SCSS",
+                    "Tailwind",
+                    "jQuery"
+                ],
+                [
+                    "React.js",
+                    "React Native",
+                    "Redux"
+                ]
+            ]
+        },
+        {
+            "category": "Backend",
+            "items": [
+                [
+                    "Node.js",
+                    "Express"
+                ],
+                [
+                    "PHP"
+                ]
+            ]
+        },
+        {
+            "category": "Database",
+            "items": [
+                [
+                    "MongoDB",
+                    "Mongoose"
+                ],
+                [
+                    "MySQL",
+                    "MariaDB"
+                ]
+            ]
+        },
+        {
+            "category": "CMS & Platforms",
+            "items": [
+                [
+                    "Wix (Editor, Studio, Velo)"
+                ],
+                [
+                    "WordPress"
+                ]
+            ]
+        },
+        {
+            "category": "Tools & Deployment",
+            "items": [
+                [
+                    "GitHub",
+                    "GitHub Actions (CI/CD)"
+                ],
+                [
+                    "Visual Studio Code"
+                ],
+                [
+                    "Android Studio"
+                ],
+                [
+                    "Vercel",
+                    "Netlify",
+                    "AWS"
+                ],
+                [
+                    "Google Play Console (Android)"
+                ],
+                [
+                    "App Store Connect (iOS)"
+                ]
+            ]
+        },
+        {
+            "category": "Additional Programming Languages",
+            "items": [
+                [
+                    "C",
+                    "C++",
+                    "Java",
+                    "Python"
+                ]
+            ]
+        },
+        {
+            "category": "Languages",
+            "items": [
+                [
+                    "English",
+                    "Hindi"
+                ]
+            ]
+        }
+    ],
+    "workHistory": [
+        {
+            "jobTitle": "Full Stack Developer",
+            "companyName": "Bluehance360 LLP",
+            "jobLocation": "Mumbai, Maharashtra",
+            "dates": {
+                "from": "March 2023",
+                "to": "Present"
+            },
+            "description": [
+                "Developed and maintained client-facing web applications using Wix Velo, JavaScript, and custom backend logic in a production environment.",
+                "Built and customized dynamic features such as product pages, search, calculators, and form-based workflows.",
+                "Integrated third-party APIs, authentication, and interactive functionality based on project requirements.",
+                "Collaborated directly with clients to gather requirements and deliver scalable, maintainable solutions.",
+                "Improved application stability and maintainability through modular code, debugging, and performance optimization."
+            ]
+        },
+        {
+            "jobTitle": "Web Developer",
+            "companyName": "Mitr Learning & Media Pvt. Ltd.",
+            "jobLocation": "Mumbai, Maharashtra",
+            "dates": {
+                "from": "May 2021",
+                "to": "March 2023"
+            },
+            "description": [
+                "Worked on production web applications, supporting content integration, configuration, and customization using templates and GUI-based tools.",
+                "Made minor HTML and JavaScript updates and occasionally modified existing React.js components.",
+                "Customized application behavior and content through JSON configuration files.",
+                "Collaborated with team members using task tracking and timelines to meet delivery deadlines while following professional reporting standards."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "DotBox - A Dots and Boxes Game",
+            "description": "Interactive browser-based game with animations and complete game logic, deployed as both a web application and Android app.",
+            "used": ["HTML", "CSS", "JavaScript", "SVG", "Java (Android)"],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "dotbox-web-vishesh-learn.vercel.app"
+                },
+                {
+                    "label": "Android App",
+                    "value": "play.google.com/store/apps/details?id=com.vishesh.dotbox"
+                }
+            ]
+        }
+    ],
+    "qualifications": [
+        {
+            "organisation": "Girija Mhatre Junior College",
+            "location": "Maharashtra, India",
+            "title": "Higher Secondary School Certificate"
+        },
+        {
+            "organisation": "Xavier’s High School",
+            "location": "Maharashtra, India",
+            "title": "Secondary School Certificate"
+        }
+    ]
+}
