@@ -1,66 +1,36 @@
-# Vishesh Vishwakarma — Resume
+## Usage
 
-A static, single-page HTML/CSS resume.
+Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
 
-## Structure
-
-```text
-index.html                         # the resume markup
-css/                               # compiled, browser-loaded stylesheets
-  reset.css
-  main.css        (+ .map)         # compiled from scss/main.scss
-  media-query.css (+ .map)         # compiled from scss/media-query.scss
-scss/                              # SCSS sources
-  main.scss
-  media-query.scss
-vishesh_vishwakarma_resume.pdf     # exported PDF version
-```
-
-`index.html` links `css/reset.css`, `css/main.css`, and `css/media-query.css`. The SCSS files are the source of truth for `main.css` and `media-query.css` — edit the SCSS, then recompile.
-
-## View it
-
-It's a plain static page — no build step is required just to view it. Either:
-
-- Open `index.html` directly in a browser, or
-- Serve the folder (better for consistent asset paths):
-
-  ```bash
-  # Python 3
-  python -m http.server 8000
-
-  # or Node
-  npx serve .
-  ```
-
-  Then open `http://localhost:8000`.
-
-## Edit styles (SCSS → CSS)
-
-Styles live in `scss/`. After changing them, compile to the `css/` files the HTML loads.
-
-Using the Dart Sass CLI (watch the whole folder rather than naming each file):
+This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
 ```bash
-# one-off build
-sass scss:css
-
-# auto-rebuild while editing
-sass --watch scss:css
+$ npm install # or pnpm install or yarn install
 ```
 
-Install Sass if you don't have it:
+### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
 
-```bash
-npm install -g sass
-```
+## Available Scripts
 
-> If you use the VS Code **Live Sass Compiler** extension instead, point its output at the `css/` folder so the existing filenames stay in sync.
+In the project directory, you can run:
 
-## Update the PDF
+### `npm run dev` or `npm start`
 
-`vishesh_vishwakarma_resume.pdf` is exported manually: open `index.html` in a browser and **Print → Save as PDF**, then replace the file in the repo root.
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Add a project
+The page will reload if you make edits.<br>
 
-Projects live in the `.section.projects` block in `index.html` as `<li>` items. Copy an existing project entry (title `<h4>`, `.desc`, `.tech-stack`, and optional `.labeled-link`) and edit the content.
+### `npm run build`
+
+Builds the app for production to the `dist` folder.<br>
+It correctly bundles Solid in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+## Deployment
+
+You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+
+## This project was created with the [Solid CLI](https://github.com/solidjs-community/solid-cli)
