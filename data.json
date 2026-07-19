@@ -174,6 +174,110 @@
                     "value": "play.google.com/store/apps/details?id=com.vishesh.dotbox"
                 }
             ]
+        },
+        {
+            "title": "Ozzy School - School Management & Learning Platform",
+            "description": "Custom authentication system with email/password login, OTP-based password reset, and session-based access control. Developed a full-stack website including landing, about, and other static pages, with role-based content delivery implemented through a custom authentication flow and backend logic.",
+            "used": ["React.js", "SCSS", "Node.js", "Express", "TypeScript", "MariaDB", "GitHub Actions (CI/CD)", "Wix (Editor, Velo)"],
+            "links": [
+                {
+                    "label": "Website (Wix)",
+                    "value": "ozzy.school"
+                },
+                {
+                    "label": "Login (Custom)",
+                    "value": "login.ozzy.school"
+                }
+            ]
+        },
+        {
+            "title": "City to City Asia Pacific - Annual Report 2025",
+            "description": "Built a static, cinematic single-page annual report site with scroll-driven choreography, framed editorial photography, interactive financial charts, and a multi-section content flow (hub cities, metrics, programs, and a regional calendar) driven by typed, structured content. Used AI coding assistance during development; all work was reviewed, integrated, and validated before release.",
+            "used": ["Next.js", "React", "TypeScript", "GSAP (ScrollTrigger)", "Lenis", "Recharts"],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "city-to-city-annual-report-2025.citytocityasiapacific.com"
+                }
+            ]
+        },
+        {
+            "title": "Typeify - Typing Speed Test",
+            "description": "Interactive typing speed test tool with real-time performance metrics and custom app development and integration.",
+            "used": ["Wix (Editor, Velo)", "HTML", "CSS", "JS"],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "typeify.co.uk/professional-speed-test"
+                }
+            ]
+        },
+        {
+            "title": "Hagah",
+            "description": "Maintained and enhanced a meditation app with free and premium audio streaming, improving stability, UI/UX, authentication, and implementing HLS-based audio delivery, while actively contributing to ongoing development of the app, admin panel, and backend services.",
+            "used": ["React.js", "React Native", "TypeScript", "Node.js", "Express.js", "MongoDB", "Mongoose"],
+            "links": [
+                {
+                    "label": "Play Store",
+                    "value": "play.google.com/store/apps/details?id=com.hagah.meditation"
+                },
+                {
+                    "label": "App Store",
+                    "value": "apps.apple.com/in/app/hagah/id6749614838"
+                }
+            ]
+        },
+        {
+            "title": "Pastors University",
+            "description": "Built and maintained the learner-facing web app and related admin tooling for a pastoral leadership training platform, including course access, payments, multilingual content, and media workflows integrated with backend APIs. Used AI coding assistance during development; all work was reviewed, integrated, and validated before release.",
+            "used": ["React.js", "Vite", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "Stripe", "AWS (S3, MediaConvert)", "i18next"],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "learning.pastorsuniversity.org"
+                }
+            ]
+        },
+        {
+            "title": "Go Make Disciples (CPI)",
+            "description": "Built and maintained a faith-based discipleship streaming and learning platform spanning mobile, web, and admin applications, including HLS-based video delivery, course access, subscription billing, an integrated book store with cart and Stripe checkout, multilingual content, and AWS-powered media processing integrated with backend APIs. Used AI coding assistance during development; all work was reviewed, integrated, and validated before release.",
+            "used": ["React Native (Expo)", "Next.js", "React", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "RevenueCat", "Stripe", "AWS (S3, MediaConvert, Transcribe)", "HLS.js", "i18next"],
+            "links": [
+                {
+                    "label": "Website",
+                    "value": "gomakedisciples.tv"
+                },
+                {
+                    "label": "Play Store",
+                    "value": "play.google.com/store/apps/details?id=tv.gomakedisciples.app"
+                },
+                {
+                    "label": "App Store",
+                    "value": "apps.apple.com/us/app/go-make-disciples/id6762123535"
+                }
+            ]
+        },
+        {
+            "title": "Claires",
+            "description": "Maintained and enhanced the Claire’s website built on Wix Studio, implementing provided designs and functionality for the store and ear-piercing sections, developing a user portal, and integrating external APIs to support site features.",
+            "used": ["Wix (Studio, Velo)"],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "claires.com"
+                }
+            ]
+        },
+        {
+            "title": "The Mindset IQ",
+            "description": "Worked on The Mindset IQ, a web platform offering science-backed mindset and culture-fit assessments to support data-driven hiring and talent evaluation.",
+            "used": ["Wix (Editor, Velo)", "HTML", "CSS", "JavaScript"],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "themindsetiq.com"
+                }
+            ]
         }
     ],
     "qualifications": [
