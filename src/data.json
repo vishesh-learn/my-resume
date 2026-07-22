@@ -284,12 +284,16 @@
         {
             "organisation": "Girija Mhatre Junior College",
             "location": "Maharashtra, India",
-            "title": "Higher Secondary School Certificate"
+            "title": "Higher Secondary School Certificate",
+            "score": "",
+            "note": ""
         },
         {
             "organisation": "Xavier’s High School",
             "location": "Maharashtra, India",
-            "title": "Secondary School Certificate"
+            "title": "Secondary School Certificate",
+            "score": "",
+            "note": ""
         }
     ]
 }
