@@ -25,3 +25,5 @@ gitignore
 # System Files
 .DS_Store
 Thumbs.db
+dist/Komal Vishwakarma - Resume.pdf
+src/data.local.json

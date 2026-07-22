@@ -2,7 +2,9 @@ import './style/main.scss';
 import './style/media-query.scss';
 
 import { Component } from 'solid-js';
-import data from './data.json';
+import data from './data.json' with { type: "json" };
+
+// const data = json as any;
 
 const App: Component = () => {
 
@@ -24,11 +26,10 @@ const App: Component = () => {
         <span class="field">{data.contact.phone}</span><br />
 
         {
-          data.links.map(link =>
+          data.links.length && data.links.map(link =>
             <div>
-              {link.label}:
-              <a target="_blank" href={`https://${link.value}`}>
-                {link.value}
+              {link["label"]}: <a target="_blank" href={`https://${link["value"]}`}>
+                {link["value"]}
               </a>
             </div>
           )}
@@ -51,21 +52,35 @@ const App: Component = () => {
           <ul class="dot-list">
             {
               data.skills.map(skill =>
-                <li>
-                  <b>{skill.category}:</b>
+                skill["category"] ?
+                  <li>
+                    <b>{skill.category}:</b>
+                    <ul>
+
+                      {
+                        skill.items.map(item =>
+                          <li>
+                            {
+                              typeof item == "string" ? item : item.join(", ")
+                            }
+                          </li>
+                        )
+                      }
+                    </ul>
+                  </li>
+                  :
                   <ul>
 
                     {
                       skill.items.map(item =>
                         <li>
                           {
-                            item.join(", ")
+                            typeof item == "string" ? item : item.join(", ")
                           }
                         </li>
                       )
                     }
                   </ul>
-                </li>
               )
             }
           </ul>
@@ -146,10 +161,15 @@ const App: Component = () => {
                 <div class="hBar">
                   <span class="paddedline">
                     <span class="school-name">{qualification.organisation}</span><span> - </span>
-                    <span class="joblocation jobcity">{qualification.location}</span>
-                    - <span class="degree">{qualification.title}</span>
+                    <span class="joblocation jobcity">{qualification.location}</span> - <span class="degree">{qualification.title}</span>
                   </span>
                 </div>
+                {
+                  qualification.score && <><span>|</span> <i>{qualification.score}%</i></>
+                }
+                {
+                  qualification.note && <><span>|</span><i>({qualification.note})</i></>
+                }
               </div>
             )
           }

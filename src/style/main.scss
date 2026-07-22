@@ -195,11 +195,13 @@ body {
             .hBar-container {
                 display: flex;
                 justify-content: space-between;
+                gap: 0.4em;
             }
 
             .hBar {
                 margin-right: 10px;
                 min-width: 296px;
+                flex: 1;
             }
 
             .sortableInner {
