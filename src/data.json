@@ -39,7 +39,9 @@
                 [
                     "React.js",
                     "React Native",
-                    "Redux"
+                    "Redux",
+                    "Next.js",
+                    "Solid.js"
                 ]
             ]
         },
@@ -245,7 +247,7 @@
         },
         {
             "title": "Pastors University",
-            "description": "Built and maintained the learner-facing web app and related admin tooling for a pastoral leadership training platform, including course access, payments, multilingual content, and media workflows integrated with backend APIs.",
+            "description": "Built and maintained the learner-facing web app and admin tooling for a pastoral leadership platform, including course access, payments, multilingual content, media workflows, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
             "used": ["React.js", "Vite", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "Stripe", "AWS (S3, MediaConvert)", "i18next"],
             "links": [
                 {
@@ -256,7 +258,7 @@
         },
         {
             "title": "Go Make Disciples (CPI)",
-            "description": "Built and maintained a faith-based discipleship streaming and learning platform spanning mobile, web, and admin applications, including HLS-based video delivery, course access, subscription billing, an integrated book store with cart and Stripe checkout, multilingual content, and AWS-powered media processing integrated with backend APIs.",
+            "description": "Built and maintained a faith-based streaming and learning platform spanning mobile, web, and admin applications, implementing subscription-based access to courses, books, and streaming content, an admin book management system, multilingual support, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
             "used": ["React Native (Expo)", "Next.js", "React", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "RevenueCat", "Stripe", "AWS (S3, MediaConvert, Transcribe)", "HLS.js", "i18next"],
             "links": [
                 {
