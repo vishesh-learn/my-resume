@@ -3,7 +3,7 @@
         "firstName": "Vishesh",
         "lastName": "Vishwakarma"
     },
-    "role": "Full Stack Developer",
+    "role": "Full Stack Web & Mobile App Developer",
     "contact": {
         "address": "Naigaon, Vasai-Virar, Maharashtra, India",
         "email": "vishesh.learn@gmail.com",
@@ -19,7 +19,7 @@
             "value": "linkedin.com/in/visheshvishwakarma"
         }
     ],
-    "professionalSummary": "Full Stack Developer with hands-on experience building and deploying production-ready web and mobile applications for real clients. Comfortable communicating with clients to brainstorm and shape a clear build plan and design system, then translating requirements into clean, maintainable code while managing the complete application lifecycle from concept to development to deployment. Additionally leverage AI tools and APIs to build smarter features, accelerate development, and improve code quality.",
+    "professionalSummary": "Full Stack Web & Mobile App Developer with hands-on experience building and deploying production-ready web and mobile applications for real clients. Comfortable communicating with clients to brainstorm and shape a clear build plan and design system, then translating requirements into clean, maintainable code while managing the complete application lifecycle from concept to development to deployment. Additionally leverage AI tools and APIs to build smarter features, accelerate development, and improve code quality.",
     "skills": [
         {
             "category": "Frontend",
@@ -80,6 +80,23 @@
             ]
         },
         {
+            "category": "Cloud & Integrations",
+            "items": [
+                [
+                    "AWS (S3, MediaConvert, Transcribe)"
+                ],
+                [
+                    "Stripe"
+                ],
+                [
+                    "RevenueCat"
+                ],
+                [
+                    "REST APIs"
+                ]
+            ]
+        },
+        {
             "category": "Tools & Deployment",
             "items": [
                 [
@@ -94,8 +111,7 @@
                 ],
                 [
                     "Vercel",
-                    "Netlify",
-                    "AWS"
+                    "Netlify"
                 ],
                 [
                     "Google Play Console (Android)"
@@ -161,8 +177,8 @@
     ],
     "projects": [
         {
-            "title": "DotBox - A Dots and Boxes Game",
-            "description": "Interactive browser-based game with animations and complete game logic, deployed as both a web application and Android app.",
+            "title": "DotBox - Browser & Android Game (Personal Project)",
+            "description": "Designed and developed a browser-based implementation of the classic Dots and Boxes game featuring complex game logic, mathematical algorithms, responsive UI, custom animations, and configurable gameplay. Deployed as both a web application and Android app.",
             "used": ["HTML", "CSS", "JavaScript", "SVG", "Java (Android)"],
             "links": [
                 {
@@ -177,7 +193,7 @@
         },
         {
             "title": "Ozzy School - School Management & Learning Platform",
-            "description": "Custom authentication system with email/password login, OTP-based password reset, and session-based access control. Developed a full-stack website including landing, about, and other static pages, with role-based content delivery implemented through a custom authentication flow and backend logic.",
+            "description": "Built a custom authentication system with email/password login, OTP-based password reset, session-based access control, and role-based content delivery, alongside the public website.",
             "used": ["React.js", "SCSS", "Node.js", "Express", "TypeScript", "MariaDB", "GitHub Actions (CI/CD)", "Wix (Editor, Velo)"],
             "links": [
                 {
@@ -192,7 +208,7 @@
         },
         {
             "title": "City to City Asia Pacific - Annual Report 2025",
-            "description": "Built a static, cinematic single-page annual report site with scroll-driven choreography, framed editorial photography, interactive financial charts, and a multi-section content flow (hub cities, metrics, programs, and a regional calendar) driven by typed, structured content. Used AI coding assistance during development; all work was reviewed, integrated, and validated before release.",
+            "description": "Built a static, cinematic single-page annual report site with scroll-driven choreography, framed editorial photography, interactive financial charts, and a multi-section content flow (hub cities, metrics, programs, and a regional calendar) driven by typed, structured content.",
             "used": ["Next.js", "React", "TypeScript", "GSAP (ScrollTrigger)", "Lenis", "Recharts"],
             "links": [
                 {
@@ -214,7 +230,7 @@
         },
         {
             "title": "Hagah",
-            "description": "Maintained and enhanced a meditation app with free and premium audio streaming, improving stability, UI/UX, authentication, and implementing HLS-based audio delivery, while actively contributing to ongoing development of the app, admin panel, and backend services.",
+            "description": "Maintained and enhanced a meditation platform across the mobile app, admin panel, and backend services, implementing authentication, premium audio streaming, downloadable audio, playlists, UI/UX improvements, and an AWS-based HLS streaming pipeline that automatically converts uploaded tracks for adaptive playback.",
             "used": ["React.js", "React Native", "TypeScript", "Node.js", "Express.js", "MongoDB", "Mongoose"],
             "links": [
                 {
@@ -229,7 +245,7 @@
         },
         {
             "title": "Pastors University",
-            "description": "Built and maintained the learner-facing web app and related admin tooling for a pastoral leadership training platform, including course access, payments, multilingual content, and media workflows integrated with backend APIs. Used AI coding assistance during development; all work was reviewed, integrated, and validated before release.",
+            "description": "Built and maintained the learner-facing web app and related admin tooling for a pastoral leadership training platform, including course access, payments, multilingual content, and media workflows integrated with backend APIs.",
             "used": ["React.js", "Vite", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "Stripe", "AWS (S3, MediaConvert)", "i18next"],
             "links": [
                 {
@@ -240,7 +256,7 @@
         },
         {
             "title": "Go Make Disciples (CPI)",
-            "description": "Built and maintained a faith-based discipleship streaming and learning platform spanning mobile, web, and admin applications, including HLS-based video delivery, course access, subscription billing, an integrated book store with cart and Stripe checkout, multilingual content, and AWS-powered media processing integrated with backend APIs. Used AI coding assistance during development; all work was reviewed, integrated, and validated before release.",
+            "description": "Built and maintained a faith-based discipleship streaming and learning platform spanning mobile, web, and admin applications, including HLS-based video delivery, course access, subscription billing, an integrated book store with cart and Stripe checkout, multilingual content, and AWS-powered media processing integrated with backend APIs.",
             "used": ["React Native (Expo)", "Next.js", "React", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "RevenueCat", "Stripe", "AWS (S3, MediaConvert, Transcribe)", "HLS.js", "i18next"],
             "links": [
                 {
@@ -270,7 +286,7 @@
         },
         {
             "title": "The Mindset IQ",
-            "description": "Worked on The Mindset IQ, a web platform offering science-backed mindset and culture-fit assessments to support data-driven hiring and talent evaluation.",
+            "description": "Developed a highly configurable assessment platform featuring custom questionnaire generation, role-based dashboards, subscription-aware business rules, automated candidate workflows, dynamic result calculation, and branded PDF report generation driven by admin-defined configurations.",
             "used": ["Wix (Editor, Velo)", "HTML", "CSS", "JavaScript"],
             "links": [
                 {

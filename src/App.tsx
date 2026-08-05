@@ -59,7 +59,7 @@ const App: Component = () => {
 
                       {
                         skill.items.map(item =>
-                          <li>
+                          <li class="skill-items">
                             {
                               typeof item == "string" ? item : item.join(", ")
                             }
@@ -73,7 +73,7 @@ const App: Component = () => {
 
                     {
                       skill.items.map(item =>
-                        <li>
+                        <li class="skill-items">
                           {
                             typeof item == "string" ? item : item.join(", ")
                           }
