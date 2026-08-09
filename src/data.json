@@ -191,7 +191,8 @@
                     "label": "Android App",
                     "value": "play.google.com/store/apps/details?id=com.vishesh.dotbox"
                 }
-            ]
+            ],
+            "type": "custom"
         },
         {
             "title": "Ozzy School - School Management & Learning Platform",
@@ -206,7 +207,8 @@
                     "label": "Login (Custom)",
                     "value": "login.ozzy.school"
                 }
-            ]
+            ],
+            "type": "custom"
         },
         {
             "title": "City to City Asia Pacific - Annual Report 2025",
@@ -217,7 +219,8 @@
                     "label": "Web",
                     "value": "city-to-city-annual-report-2025.citytocityasiapacific.com"
                 }
-            ]
+            ],
+            "type": "custom"
         },
         {
             "title": "Typeify - Typing Speed Test",
@@ -228,7 +231,8 @@
                     "label": "Web",
                     "value": "typeify.co.uk/professional-speed-test"
                 }
-            ]
+            ],
+            "type": "wix"
         },
         {
             "title": "Hagah",
@@ -243,7 +247,8 @@
                     "label": "App Store",
                     "value": "apps.apple.com/in/app/hagah/id6749614838"
                 }
-            ]
+            ],
+            "type": "custom"
         },
         {
             "title": "Pastors University",
@@ -254,7 +259,8 @@
                     "label": "Web",
                     "value": "learning.pastorsuniversity.org"
                 }
-            ]
+            ],
+            "type": "custom"
         },
         {
             "title": "Go Make Disciples (CPI)",
@@ -273,18 +279,8 @@
                     "label": "App Store",
                     "value": "apps.apple.com/us/app/go-make-disciples/id6762123535"
                 }
-            ]
-        },
-        {
-            "title": "Claires",
-            "description": "Maintained and enhanced the Claire’s website built on Wix Studio, implementing provided designs and functionality for the store and ear-piercing sections, developing a user portal, and integrating external APIs to support site features.",
-            "used": ["Wix (Studio, Velo)"],
-            "links": [
-                {
-                    "label": "Web",
-                    "value": "claires.com"
-                }
-            ]
+            ],
+            "type": "custom"
         },
         {
             "title": "The Mindset IQ",
@@ -295,7 +291,8 @@
                     "label": "Web",
                     "value": "themindsetiq.com"
                 }
-            ]
+            ],
+            "type": "wix"
         }
     ],
     "qualifications": [

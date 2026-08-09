@@ -12,6 +12,21 @@ body {
     -moz-font-feature-settings: "liga" off;
     line-height: 1;
     text-align: left;
+    font-family: Verdana;
+
+    header {
+        display: flex;
+        gap: 1em;
+        padding: 1em;
+
+        fieldset {
+            padding: 0.5em 1em;
+            display: inline-flex;
+            gap: 0.2em;
+            border-radius: .5em;
+            background: antiquewhite;
+        }
+    }
 
     a {
         color: unset;
@@ -167,7 +182,8 @@ body {
                 margin-bottom: 10px !important;
             }
 
-            h4, p {
+            h4,
+            p {
                 margin-bottom: 6px;
             }
         }
