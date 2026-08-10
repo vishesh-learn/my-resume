@@ -1,7 +1,7 @@
 import './style/main.scss';
 import './style/media-query.scss';
 
-import { Component, createEffect, createSignal } from 'solid-js';
+import { Component, createEffect, createSignal, onMount } from 'solid-js';
 import data from './data.json' with { type: "json" };
 
 // const data = json as any;
@@ -22,7 +22,7 @@ const types: Type[] = [
 ];
 
 const App: Component = () => {
-  const [getSelectedTypes, setSelectedTypes] = createSignal<string[]>([]);
+  const [getSelectedTypes, setSelectedTypes] = createSignal<string[]>(types.map(type => type.value));
 
   function type_OnChange(event: any) {
     const value = event.target.value;
@@ -45,6 +45,7 @@ const App: Component = () => {
                 value={type.value}
                 id={type.value}
                 onChange={type_OnChange}
+                checked={true}
               />
 
               <label for={type.value}>{type.label}</label>
