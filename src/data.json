@@ -19,7 +19,7 @@
             "value": "linkedin.com/in/visheshvishwakarma"
         }
     ],
-    "professionalSummary": "Full Stack Web & Mobile App Developer with hands-on experience building and deploying production-ready web and mobile applications for real clients. Comfortable communicating with clients to brainstorm and shape a clear build plan and design system, then translating requirements into clean, maintainable code while managing the complete application lifecycle from concept to development to deployment. Additionally leverage AI tools and APIs to build smarter features, accelerate development, and improve code quality.",
+    "professionalSummary": "Full Stack Web & Mobile App Developer who turns client requirements into well-scoped, maintainable digital products. Experienced in making technical decisions across platforms, languages, databases, integrations, and deployment workflows. Combines hands-on development with clear documentation, practical development standards, risk-aware system design, and structured client communication to improve delivery from discovery through handover. Leverages AI tools and APIs to build smarter features, accelerate development, and improve code quality.",
     "skills": [
         {
             "category": "Frontend",
@@ -124,6 +124,23 @@
             ]
         },
         {
+            "category": "Technical Leadership & Delivery",
+            "items": [
+                [
+                    "Technical Strategy & Stack Selection"
+                ],
+                [
+                    "Project Scoping, Estimates & Client Plans"
+                ],
+                [
+                    "Documentation, Handover & SOPs"
+                ],
+                [
+                    "Team Coordination, Quality & Risk Reduction"
+                ]
+            ]
+        },
+        {
             "category": "Additional Programming Languages",
             "items": [
                 [
@@ -157,8 +174,10 @@
                 "Developed and maintained client-facing web applications using Wix Velo, JavaScript, and custom backend logic in a production environment.",
                 "Built and customized dynamic features such as product pages, search, calculators, and form-based workflows.",
                 "Integrated third-party APIs, authentication, and interactive functionality based on project requirements.",
-                "Collaborated directly with clients to gather requirements and deliver scalable, maintainable solutions.",
-                "Improved application stability and maintainability through modular code, debugging, and performance optimization."
+                "Collaborated directly with clients to gather requirements, define project scope, and translate needs into clear build plans and maintainable solutions.",
+                "Advised on suitable platforms, tools, databases, and implementation approaches based on project requirements and long-term maintainability.",
+                "Created and maintained technical documentation, including requirements, implementation notes, setup guidance, and handover information for client and team use.",
+                "Improved application stability and maintainability through modular code, debugging, performance optimization, and practical delivery practices."
             ]
         },
         {
@@ -173,7 +192,8 @@
                 "Worked on production web applications, supporting content integration, configuration, and customization using templates and GUI-based tools.",
                 "Made minor HTML and JavaScript updates and occasionally modified existing React.js components.",
                 "Customized application behavior and content through JSON configuration files.",
-                "Collaborated with team members using task tracking and timelines to meet delivery deadlines while following professional reporting standards."
+                "Collaborated with team members using task tracking and timelines to meet delivery deadlines while following professional reporting standards.",
+                "Supported structured team workflows through clear progress updates, coordination, documentation, and timely communication."
             ]
         }
     ],
