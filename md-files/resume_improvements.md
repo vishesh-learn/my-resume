@@ -5,20 +5,6 @@
 -   [ ] Add exact total years of professional experience.
 -   [ ] Add the approximate number of production applications delivered.
 -   [ ] Add the number of clients/projects handled, if measurable.
--   [ ] Mention both web and mobile application development if both are
-    core strengths.
--   [ ] Focus the summary on outcomes and ownership, not only
-    technologies.
--   [ ] Position the profile as a developer who translates
-    business/client requirements into production applications.
-
-### Suggested direction
-
-> Full-stack Web & Mobile Application Developer with X+ years of
-> experience building and deploying production applications for real
-> clients. Experienced in translating business requirements into
-> maintainable web and mobile solutions across frontend, backend,
-> database, API integration, and deployment workflows.
 
 ------------------------------------------------------------------------
 
@@ -31,14 +17,8 @@ should show more measurable impact.
 
 -   [ ] Delivered X+ production web/mobile applications.
 -   [ ] Worked with X+ clients.
--   [ ] Integrated X+ third-party APIs/services.
 -   [ ] Improved application performance by X%, if measurable.
 -   [ ] Reduced development or deployment time by X%, if measurable.
--   [ ] Managed projects from requirement gathering through development,
-    deployment, and handover.
--   [ ] Mention production applications released to Android/iOS/web.
--   [ ] Mention ownership of architecture or technical decisions where
-    applicable.
 
 **Important:** Do not invent numbers. Replace placeholders only with
 real figures.
@@ -80,8 +60,6 @@ that represent the strongest expertise.
 
 ### Also consider
 
--   [ ] Keep Wix Velo and WordPress because they represent real project
-    experience.
 -   [ ] Avoid presenting every technology as having the same
     proficiency.
 -   [ ] Keep the primary stack aligned with the jobs being targeted.
@@ -104,7 +82,6 @@ For each major project, use:
 -   [ ] Backend/API responsibilities.
 -   [ ] Database responsibilities.
 -   [ ] Deployment/release responsibilities.
--   [ ] Important integrations.
 -   [ ] Measurable results where available.
 
 ### Example structure
@@ -120,8 +97,6 @@ For each major project, use:
 
 ## 5. Project Links
 
--   [ ] Keep live project links.
--   [ ] Make links clearly labeled.
 -   [ ] Use consistent labels such as:
     -   Live Website
     -   Google Play
@@ -139,16 +114,6 @@ For each major project, use:
 Deployment experience is a strong part of the profile and should be more
 visible.
 
-### Highlight
-
--   GitHub Actions
--   CI/CD
--   AWS
--   Vercel
--   Netlify
--   Google Play Console
--   App Store Connect
-
 ### Add an experience bullet
 
 > Managed application deployment and release workflows across web,
@@ -160,30 +125,7 @@ work.
 
 ------------------------------------------------------------------------
 
-## 7. Client Communication & Requirement Handling
-
-Client-facing experience should be highlighted because it differentiates
-the profile from a developer who only implements assigned tasks.
-
-### Add
-
--   [ ] Requirement gathering.
--   [ ] Technical solution planning.
--   [ ] Development effort estimation.
--   [ ] Client communication.
--   [ ] Progress updates.
--   [ ] Requirement clarification.
--   [ ] Final deployment and handover.
-
-### Suggested bullet
-
-> Worked directly with clients to gather requirements, define technical
-> approaches, estimate development effort, communicate progress, and
-> manage final project handover.
-
-------------------------------------------------------------------------
-
-## 8. Education
+## 7. Education
 
 -   [ ] Add graduation/completion years.
 -   [ ] Keep qualification names consistent.
@@ -194,7 +136,7 @@ the profile from a developer who only implements assigned tasks.
 
 ------------------------------------------------------------------------
 
-## 9. Certifications
+## 8. Certifications
 
 Add a certifications section only if actual certifications exist.
 
@@ -210,26 +152,19 @@ Do not add certifications that were not completed.
 
 ------------------------------------------------------------------------
 
-## 10. Add a Key Achievements Section
+## 9. Add a Key Achievements Section
 
 A short achievements section can improve recruiter readability.
 
 ### Suggested content
 
 -   [ ] Delivered X+ production web and mobile applications.
--   [ ] Built applications across education, media, subscription, and
-    assessment domains.
--   [ ] Worked across frontend, backend, database, API integration, and
-    deployment.
--   [ ] Managed client requirement gathering and technical solution
-    planning.
--   [ ] Implemented AWS-based media streaming and CI/CD workflows.
 
 Use only achievements that can be supported by actual experience.
 
 ------------------------------------------------------------------------
 
-## 11. Resume Positioning
+## 10. Resume Positioning
 
 ### Current impression
 
@@ -257,7 +192,7 @@ This positioning is especially useful for:
 
 ------------------------------------------------------------------------
 
-## 12. Priority Order
+## 11. Priority Order
 
 ### High priority
 
@@ -265,8 +200,6 @@ This positioning is especially useful for:
 2.  [ ] Add measurable achievements.
 3.  [ ] Add number of applications/projects if available.
 4.  [ ] Clarify personal contribution in projects.
-5.  [ ] Highlight client requirement handling.
-6.  [ ] Highlight deployment and CI/CD experience.
 
 ### Medium priority
 
@@ -283,7 +216,7 @@ This positioning is especially useful for:
 
 ------------------------------------------------------------------------
 
-## 13. Important Rules While Updating
+## 12. Important Rules While Updating
 
 -   Do not invent metrics.
 -   Do not claim technologies that were only briefly explored as core
@@ -298,7 +231,7 @@ This positioning is especially useful for:
 
 ------------------------------------------------------------------------
 
-## 14. ATS, Content & Layout Guidance
+## 13. ATS, Content & Layout Guidance
 
 - [ ] Use standard section names: Professional Summary, Technical Skills,
   Professional Experience, Selected Projects, and Education.
@@ -306,8 +239,6 @@ This positioning is especially useful for:
   reflect experience.
 - [ ] Keep technology names consistent, such as React.js, React Native,
   Node.js, Next.js, and TypeScript.
-- [ ] Keep contact details as selectable text and avoid excessive graphics or
-  decorative elements that can affect applicant-tracking systems.
 - [ ] Use concise action verbs and consistent tense: present tense for the
   current role and past tense for previous roles.
 - [ ] Keep the final resume to one or two pages; remove low-value content
@@ -315,27 +246,7 @@ This positioning is especially useful for:
 
 ------------------------------------------------------------------------
 
-## 15. Technical Leadership & Delivery
-
-Include these only when supported by actual experience:
-
-- [ ] Technical discovery, architecture decisions, and stack selection.
-- [ ] Project scoping, estimates, milestones, and client-ready plans or
-  statements of work.
-- [ ] Requirements, setup, handover, and standard-operating-procedure
-  documentation.
-- [ ] Team coordination, progress communication, code review, and quality
-  checks.
-- [ ] Data integrity, access control, testing, deployment checklists, and
-  risk-reduction practices.
-
-Use terms such as **risk reduction** and **reliable delivery practices**
-instead of claiming crisis prevention unless a specific, verifiable example
-supports the stronger claim.
-
-------------------------------------------------------------------------
-
-## 16. Additional High-Value Details to Include
+## 14. Additional High-Value Details to Include
 
 - [ ] **Measured outcomes:** reduced manual work, improved load time, launch
   dates, user counts, revenue or subscription impact, and fewer support
@@ -344,10 +255,6 @@ supports the stronger claim.
   platform, including the reason for the decision.
 - [ ] **Operational ownership:** backups, error monitoring, release processes,
   rollback or recovery plans, and access management.
-- [ ] **Client-facing artefacts:** requirements documents, project plans,
-  estimates, scopes of work, user guides, and handover documentation.
-- [ ] **Leadership evidence:** mentoring, reviewing work, coordinating
-  developers or designers, and running client calls.
 - [ ] **Quality standards:** accessibility, responsive design, performance,
   testing, privacy, and security practices.
 - [ ] **Coordination tools:** GitHub Projects, Jira, Trello, Notion, ClickUp,
@@ -367,7 +274,7 @@ supports the stronger claim.
 
 ------------------------------------------------------------------------
 
-## 17. Role-Specific Resume Versions
+## 15. Role-Specific Resume Versions
 
 Tailor the resume for the target role instead of using one identical version
 for every application.
@@ -396,7 +303,7 @@ ownership.
 
 ------------------------------------------------------------------------
 
-## 18. Overall Goal
+## 16. Overall Goal
 
 The revised resume should communicate this within the first few seconds:
 
