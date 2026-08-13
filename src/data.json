@@ -178,7 +178,8 @@
                 "Advised on suitable platforms, tools, databases, and implementation approaches based on project requirements and long-term maintainability.",
                 "Created and maintained technical documentation, including requirements, implementation notes, setup guidance, and handover information for client and team use.",
                 "Improved application stability and maintainability through modular code, debugging, performance optimization, and practical delivery practices.",
-                "Managed application deployment and release workflows across web, Android, and iOS environments using GitHub Actions, Vercel, AWS, Google Play Console, and App Store Connect."
+                "Managed application deployment and release workflows across web, Android, and iOS environments using GitHub Actions, Vercel, AWS, Google Play Console, and App Store Connect.",
+                "Provided clients and team members with implementation guidance and practical best practices, including secure MongoDB data handling, backup planning, and recovery considerations to reduce data-loss risk."
             ]
         },
         {
