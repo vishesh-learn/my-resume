@@ -1,14 +1,5 @@
 # Resume --- Changes, Improvements & Fixes
 
-## 6. Deployment & DevOps Experience
-
-### Add an experience bullet
-
-> Managed application deployment and release workflows across web, Android, and iOS environments using GitHub Actions, Vercel, AWS,
-Google Play Console, and App Store Connect.
-
-----------------------------------------------------------------------
-
 ## 7. Education
 
 - [ ] Add graduation/completion years.
