@@ -2,23 +2,22 @@
 
 ## 1. Professional Summary
 
--   [ ] Add exact total years of professional experience.
--   [ ] Add the approximate number of production applications delivered.
--   [ ] Add the number of clients/projects handled, if measurable.
+- [ ] Add exact total years of professional experience.
+- [ ] Add the approximate number of production applications delivered.
+- [ ] Add the number of clients/projects handled, if measurable.
 
 ------------------------------------------------------------------------
 
 ## 2. Current Experience --- Convert Responsibilities into Achievements
 
-The current experience section contains useful responsibilities, but it
-should show more measurable impact.
+The current experience section contains useful responsibilities, but it should show more measurable impact.
 
 ### Add measurable achievements where actual data is available
 
--   [ ] Delivered X+ production web/mobile applications.
--   [ ] Worked with X+ clients.
--   [ ] Improved application performance by X%, if measurable.
--   [ ] Reduced development or deployment time by X%, if measurable.
+- [ ] Delivered X+ production web/mobile applications.
+- [ ] Worked with X+ clients.
+- [ ] Improved application performance by X%, if measurable.
+- [ ] Reduced development or deployment time by X%, if measurable.
 
 **Important:** Do not invent numbers. Replace placeholders only with
 real figures.
@@ -32,37 +31,37 @@ that represent the strongest expertise.
 
 ### Primary
 
--   React.js
--   React Native
--   Next.js
--   TypeScript
--   JavaScript
--   Node.js
--   Express.js
--   MongoDB
--   AWS
+- React.js
+- React Native
+- Next.js
+- TypeScript
+- JavaScript
+- Node.js
+- Express.js
+- MongoDB
+- AWS
 
 ### Secondary
 
--   MySQL
--   MariaDB
--   PHP
--   Redux
--   Tailwind CSS
--   REST APIs
+- MySQL
+- MariaDB
+- PHP
+- Redux
+- Tailwind CSS
+- REST APIs
 
 ### Familiar / Additional
 
--   Java
--   Python
--   C
--   C++
+- Java
+- Python
+- C
+- C++
 
 ### Also consider
 
--   [ ] Avoid presenting every technology as having the same
+- [ ] Avoid presenting every technology as having the same
     proficiency.
--   [ ] Keep the primary stack aligned with the jobs being targeted.
+- [ ] Keep the primary stack aligned with the jobs being targeted.
 
 ------------------------------------------------------------------------
 
@@ -73,38 +72,39 @@ should clearly explain what the candidate personally built.
 
 For each major project, use:
 
-**Project → Role → Contribution → Technology → Result**
+## Project → Role → Contribution → Technology → Result**
 
 ### Add
 
--   [ ] Your role on the project.
--   [ ] Specific modules/features developed by you.
--   [ ] Backend/API responsibilities.
--   [ ] Database responsibilities.
--   [ ] Deployment/release responsibilities.
--   [ ] Measurable results where available.
+- [ ] Your role on the project.
+- [ ] Specific modules/features developed by you.
+- [ ] Backend/API responsibilities.
+- [ ] Database responsibilities.
+- [ ] Deployment/release responsibilities.
+- [ ] Measurable results where available.
 
 ### Example structure
 
 > **Hagah --- Meditation Platform**\
 > **Role:** Full Stack Developer\
-> - Developed mobile application, admin panel, and backend services. -
-> Implemented authentication, premium audio streaming, and downloads. -
-> Built AWS-based HLS streaming workflow. - Integrated React Native,
-> Node.js, MongoDB, and AWS.
+>
+> - Developed mobile application, admin panel, and backend services.
+> - Implemented authentication, premium audio streaming, and downloads.
+> - Built AWS-based HLS streaming workflow. - Integrated React Native,
+> - Node.js, MongoDB, and AWS.
 
 ------------------------------------------------------------------------
 
 ## 5. Project Links
 
--   [ ] Use consistent labels such as:
-    -   Live Website
-    -   Google Play
-    -   App Store
-    -   GitHub
--   [ ] Add GitHub links for selected projects if the repositories
+- [ ] Use consistent labels such as:
+  - Live Website
+  - Google Play
+  - App Store
+  - GitHub
+- [ ] Add GitHub links for selected projects if the repositories
     contain meaningful work.
--   [ ] Avoid adding repositories that do not represent the candidate's
+- [ ] Avoid adding repositories that do not represent the candidate's
     current skill level.
 
 ------------------------------------------------------------------------
@@ -127,12 +127,12 @@ work.
 
 ## 7. Education
 
--   [ ] Add graduation/completion years.
--   [ ] Keep qualification names consistent.
--   [ ] Use a simple format:
-    -   Degree / Qualification
-    -   Institution
-    -   Year
+- [ ] Add graduation/completion years.
+- [ ] Keep qualification names consistent.
+- [ ] Use a simple format:
+  - Degree / Qualification
+  - Institution
+  - Year
 
 ------------------------------------------------------------------------
 
@@ -142,11 +142,11 @@ Add a certifications section only if actual certifications exist.
 
 ### Possible relevant certifications
 
--   [ ] AWS
--   [ ] JavaScript / React
--   [ ] Node.js
--   [ ] Cloud
--   [ ] Other relevant professional certifications
+- [ ] AWS
+- [ ] JavaScript / React
+- [ ] Node.js
+- [ ] Cloud
+- [ ] Other relevant professional certifications
 
 Do not add certifications that were not completed.
 
@@ -158,7 +158,7 @@ A short achievements section can improve recruiter readability.
 
 ### Suggested content
 
--   [ ] Delivered X+ production web and mobile applications.
+- [ ] Delivered X+ production web and mobile applications.
 
 Use only achievements that can be supported by actual experience.
 
@@ -182,13 +182,13 @@ It should communicate:
 
 This positioning is especially useful for:
 
--   Full Stack Developer
--   Full Stack JavaScript Developer
--   Web & Mobile App Developer
--   React Developer
--   React Native Developer
--   Next.js Developer
--   Software Developer
+- Full Stack Developer
+- Full Stack JavaScript Developer
+- Web & Mobile App Developer
+- React Developer
+- React Native Developer
+- Next.js Developer
+- Software Developer
 
 ------------------------------------------------------------------------
 
@@ -196,16 +196,16 @@ This positioning is especially useful for:
 
 ### High priority
 
-1.  [ ] Add exact years of experience.
-2.  [ ] Add measurable achievements.
-3.  [ ] Add number of applications/projects if available.
-4.  [ ] Clarify personal contribution in projects.
+1. [ ] Add exact years of experience.
+2. [ ] Add measurable achievements.
+3. [ ] Add number of applications/projects if available.
+4. [ ] Clarify personal contribution in projects.
 
 ### Medium priority
 
-7.  [ ] Reorganize technology skills by proficiency/priority.
-8.  [ ] Improve project link formatting.
-9.  [ ] Add education years.
+7. [ ] Reorganize technology skills by proficiency/priority.
+8. [ ] Improve project link formatting.
+9. [ ] Add education years.
 10. [ ] Add certifications if applicable.
 
 ### Optional
@@ -218,16 +218,16 @@ This positioning is especially useful for:
 
 ## 12. Important Rules While Updating
 
--   Do not invent metrics.
--   Do not claim technologies that were only briefly explored as core
+- Do not invent metrics.
+- Do not claim technologies that were only briefly explored as core
     expertise.
--   Do not list every technology with equal proficiency.
--   Prioritize production experience over tutorial/personal-project
+- Do not list every technology with equal proficiency.
+- Prioritize production experience over tutorial/personal-project
     experience.
--   Use action verbs such as **Developed, Built, Designed, Implemented,
+- Use action verbs such as **Developed, Built, Designed, Implemented,
     Integrated, Deployed, Managed, Optimized**.
--   Prefer measurable outcomes over generic responsibility statements.
--   Keep the resume concise enough for quick recruiter scanning.
+- Prefer measurable outcomes over generic responsibility statements.
+- Keep the resume concise enough for quick recruiter scanning.
 
 ------------------------------------------------------------------------
 
