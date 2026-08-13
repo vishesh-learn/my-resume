@@ -1,24 +1,5 @@
 # Resume --- Changes, Improvements & Fixes
 
-## 1. Professional Summary
-
-- [ ] Add exact total years of professional experience.
-- [ ] Add the approximate number of production applications delivered.
-- [ ] Add the number of clients/projects handled, if measurable.
-
-----------------------------------------------------------------------
-
-## 2. Current Experience --- Convert Responsibilities into Achievements
-
-### Add measurable achievements where actual data is available
-
-- [ ] Delivered X+ production web/mobile applications.
-- [ ] Worked with X+ clients.
-- [ ] Improved application performance by X%, if measurable.
-- [ ] Reduced development or deployment time by X%, if measurable.
-
-----------------------------------------------------------------------
-
 ## 3. Technology Stack --- Improve Prioritization
 
 The technology list is broad. It should clearly show the technologies
