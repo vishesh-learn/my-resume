@@ -92,7 +92,7 @@ const App: Component = () => {
         </div>
 
         <div class="section skills">
-          <div class="heading">Skills</div>
+          <div class="heading">Technical Skills</div>
           <div class="paragraph">
             <ul class="dot-list">
               {
@@ -134,7 +134,7 @@ const App: Component = () => {
 
         <div class="section history">
           <div class="doc-item">
-            <div class="heading">Work History</div>
+            <div class="heading">Professional Experience</div>
 
             {
               data.workHistory.map(workHistory =>
@@ -166,7 +166,7 @@ const App: Component = () => {
         </div>
 
         <div class="section projects">
-          <div class="heading">Key Projects</div>
+          <div class="heading">Selected Projects</div>
 
           <ul class="paragraph">
 
@@ -211,8 +211,11 @@ const App: Component = () => {
                 <div class="hBar-container paragraph">
                   <div class="hBar">
                     <span class="paddedline">
-                      <span class="school-name">{qualification.organisation}</span><span> - </span>
-                      <span class="joblocation jobcity">{qualification.location}</span> - <span class="degree">{qualification.title}</span>
+                      <span class="school-name">{qualification.organisation}</span>
+                      <span> - </span>
+                      <span class="joblocation jobcity">{qualification.location}</span>
+                      <span> - </span>
+                      <span class="degree">{qualification.title}</span>
                     </span>
                   </div>
                   {
