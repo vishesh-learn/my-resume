@@ -201,7 +201,13 @@
         {
             "title": "DotBox - Browser & Android Game (Personal Project)",
             "description": "Designed and developed a browser-based implementation of the classic Dots and Boxes game featuring complex game logic, mathematical algorithms, responsive UI, custom animations, and configurable gameplay. Deployed as both a web application and Android app.",
-            "used": ["HTML", "CSS", "JavaScript", "SVG", "Java (Android)"],
+            "used": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "SVG",
+                "Java (Android)"
+            ],
             "links": [
                 {
                     "label": "Web",
@@ -217,7 +223,16 @@
         {
             "title": "Ozzy School - School Management & Learning Platform",
             "description": "Built a custom authentication system with email/password login, OTP-based password reset, session-based access control, and role-based content delivery, alongside the public website.",
-            "used": ["React.js", "SCSS", "Node.js", "Express", "TypeScript", "MariaDB", "GitHub Actions (CI/CD)", "Wix (Editor, Velo)"],
+            "used": [
+                "React.js",
+                "SCSS",
+                "Node.js",
+                "Express",
+                "TypeScript",
+                "MariaDB",
+                "GitHub Actions (CI/CD)",
+                "Wix (Editor, Velo)"
+            ],
             "links": [
                 {
                     "label": "Website (Wix)",
@@ -233,7 +248,14 @@
         {
             "title": "City to City Asia Pacific - Annual Report 2025",
             "description": "Built a static, cinematic single-page annual report site with scroll-driven choreography, framed editorial photography, interactive financial charts, and a multi-section content flow (hub cities, metrics, programs, and a regional calendar) driven by typed, structured content.",
-            "used": ["Next.js", "React", "TypeScript", "GSAP (ScrollTrigger)", "Lenis", "Recharts"],
+            "used": [
+                "Next.js",
+                "React",
+                "TypeScript",
+                "GSAP (ScrollTrigger)",
+                "Lenis",
+                "Recharts"
+            ],
             "links": [
                 {
                     "label": "Web",
@@ -245,7 +267,12 @@
         {
             "title": "Typeify - Typing Speed Test",
             "description": "Interactive typing speed test tool with real-time performance metrics and custom app development and integration.",
-            "used": ["Wix (Editor, Velo)", "HTML", "CSS", "JS"],
+            "used": [
+                "Wix (Editor, Velo)",
+                "HTML",
+                "CSS",
+                "JS"
+            ],
             "links": [
                 {
                     "label": "Web",
@@ -255,9 +282,97 @@
             "type": "wix"
         },
         {
+            "title": "Hagah",
+            "description": "Maintained and enhanced a meditation platform across the mobile app, admin panel, and backend services, implementing authentication, premium audio streaming, downloadable audio, playlists, UI/UX improvements, and an AWS-based HLS streaming pipeline that automatically converts uploaded tracks for adaptive playback.",
+            "used": [
+                "React.js",
+                "React Native",
+                "TypeScript",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose"
+            ],
+            "links": [
+                {
+                    "label": "Play Store",
+                    "value": "play.google.com/store/apps/details?id=com.hagah.meditation"
+                },
+                {
+                    "label": "App Store",
+                    "value": "apps.apple.com/in/app/hagah/id6749614838"
+                }
+            ],
+            "type": "custom"
+        },
+        {
+            "title": "Pastors University",
+            "description": "Built and maintained the learner-facing web app and admin tooling for a pastoral leadership platform, including course access, payments, multilingual content, media workflows, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
+            "used": [
+                "React.js",
+                "Vite",
+                "Redux Toolkit",
+                "Tailwind CSS",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose",
+                "Stripe",
+                "AWS (S3, MediaConvert)",
+                "i18next"
+            ],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "learning.pastorsuniversity.org"
+                }
+            ],
+            "type": "custom"
+        },
+        {
+            "title": "Go Make Disciples (CPI)",
+            "description": "Built and maintained a faith-based streaming and learning platform spanning mobile, web, and admin applications, implementing subscription-based access to courses, books, and streaming content, an admin book management system, multilingual support, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
+            "used": [
+                "React Native (Expo)",
+                "Next.js",
+                "React",
+                "Redux Toolkit",
+                "Tailwind CSS",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose",
+                "RevenueCat",
+                "Stripe",
+                "AWS (S3, MediaConvert, Transcribe)",
+                "HLS.js",
+                "i18next"
+            ],
+            "links": [
+                {
+                    "label": "Website",
+                    "value": "gomakedisciples.tv"
+                },
+                {
+                    "label": "Play Store",
+                    "value": "play.google.com/store/apps/details?id=tv.gomakedisciples.app"
+                },
+                {
+                    "label": "App Store",
+                    "value": "apps.apple.com/us/app/go-make-disciples/id6762123535"
+                }
+            ],
+            "type": "custom"
+        },
+        {
             "title": "The Mindset IQ",
             "description": "Developed a highly configurable assessment platform featuring custom questionnaire generation, role-based dashboards, subscription-aware business rules, automated candidate workflows, dynamic result calculation, and branded PDF report generation driven by admin-defined configurations.",
-            "used": ["Wix (Editor, Velo)", "HTML", "CSS", "JavaScript"],
+            "used": [
+                "Wix (Editor, Velo)",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
             "links": [
                 {
                     "label": "Web",
