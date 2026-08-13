@@ -19,7 +19,7 @@
             "value": "linkedin.com/in/visheshvishwakarma"
         }
     ],
-    "professionalSummary": "Full Stack Web & Mobile App Developer who turns client requirements into well-scoped, maintainable digital products. Experienced in making technical decisions across platforms, languages, databases, integrations, and deployment workflows. Combines hands-on development with clear documentation, practical development standards, risk-aware system design, and structured client communication to improve delivery from discovery through handover. Leverages AI tools and APIs to build smarter features, accelerate development, and improve code quality.",
+    "professionalSummary": "Full Stack Web & Mobile App Developer with 5+ years of professional experience, delivering 20+ production web and mobile applications for 15+ clients. Turns client requirements into well-scoped, maintainable digital products. Experienced in making technical decisions across platforms, languages, databases, integrations, and deployment workflows. Combines hands-on development with clear documentation, practical development standards, risk-aware system design, and structured client communication to improve delivery from discovery through handover. Leverages AI tools and APIs to build smarter features, accelerate development, and improve code quality.",
     "skills": [
         {
             "category": "Frontend",
@@ -253,54 +253,6 @@
                 }
             ],
             "type": "wix"
-        },
-        {
-            "title": "Hagah",
-            "description": "Maintained and enhanced a meditation platform across the mobile app, admin panel, and backend services, implementing authentication, premium audio streaming, downloadable audio, playlists, UI/UX improvements, and an AWS-based HLS streaming pipeline that automatically converts uploaded tracks for adaptive playback.",
-            "used": ["React.js", "React Native", "TypeScript", "Node.js", "Express.js", "MongoDB", "Mongoose"],
-            "links": [
-                {
-                    "label": "Play Store",
-                    "value": "play.google.com/store/apps/details?id=com.hagah.meditation"
-                },
-                {
-                    "label": "App Store",
-                    "value": "apps.apple.com/in/app/hagah/id6749614838"
-                }
-            ],
-            "type": "custom"
-        },
-        {
-            "title": "Pastors University",
-            "description": "Built and maintained the learner-facing web app and admin tooling for a pastoral leadership platform, including course access, payments, multilingual content, media workflows, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
-            "used": ["React.js", "Vite", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "Stripe", "AWS (S3, MediaConvert)", "i18next"],
-            "links": [
-                {
-                    "label": "Web",
-                    "value": "learning.pastorsuniversity.org"
-                }
-            ],
-            "type": "custom"
-        },
-        {
-            "title": "Go Make Disciples (CPI)",
-            "description": "Built and maintained a faith-based streaming and learning platform spanning mobile, web, and admin applications, implementing subscription-based access to courses, books, and streaming content, an admin book management system, multilingual support, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
-            "used": ["React Native (Expo)", "Next.js", "React", "Redux Toolkit", "Tailwind CSS", "Node.js", "Express.js", "MongoDB", "Mongoose", "RevenueCat", "Stripe", "AWS (S3, MediaConvert, Transcribe)", "HLS.js", "i18next"],
-            "links": [
-                {
-                    "label": "Website",
-                    "value": "gomakedisciples.tv"
-                },
-                {
-                    "label": "Play Store",
-                    "value": "play.google.com/store/apps/details?id=tv.gomakedisciples.app"
-                },
-                {
-                    "label": "App Store",
-                    "value": "apps.apple.com/us/app/go-make-disciples/id6762123535"
-                }
-            ],
-            "type": "custom"
         },
         {
             "title": "The Mindset IQ",
