@@ -6,11 +6,9 @@
 - [ ] Add the approximate number of production applications delivered.
 - [ ] Add the number of clients/projects handled, if measurable.
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 2. Current Experience --- Convert Responsibilities into Achievements
-
-The current experience section contains useful responsibilities, but it should show more measurable impact.
 
 ### Add measurable achievements where actual data is available
 
@@ -19,10 +17,7 @@ The current experience section contains useful responsibilities, but it should s
 - [ ] Improved application performance by X%, if measurable.
 - [ ] Reduced development or deployment time by X%, if measurable.
 
-**Important:** Do not invent numbers. Replace placeholders only with
-real figures.
-
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 3. Technology Stack --- Improve Prioritization
 
@@ -63,7 +58,7 @@ that represent the strongest expertise.
     proficiency.
 - [ ] Keep the primary stack aligned with the jobs being targeted.
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 4. Projects --- Make Ownership Clearer
 
@@ -83,17 +78,7 @@ For each major project, use:
 - [ ] Deployment/release responsibilities.
 - [ ] Measurable results where available.
 
-### Example structure
-
-> **Hagah --- Meditation Platform**\
-> **Role:** Full Stack Developer\
->
-> - Developed mobile application, admin panel, and backend services.
-> - Implemented authentication, premium audio streaming, and downloads.
-> - Built AWS-based HLS streaming workflow. - Integrated React Native,
-> - Node.js, MongoDB, and AWS.
-
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 5. Project Links
 
@@ -102,28 +87,17 @@ For each major project, use:
   - Google Play
   - App Store
   - GitHub
-- [ ] Add GitHub links for selected projects if the repositories
-    contain meaningful work.
-- [ ] Avoid adding repositories that do not represent the candidate's
-    current skill level.
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 6. Deployment & DevOps Experience
 
-Deployment experience is a strong part of the profile and should be more
-visible.
-
 ### Add an experience bullet
 
-> Managed application deployment and release workflows across web,
-> Android, and iOS environments using GitHub Actions, Vercel, AWS,
-> Google Play Console, and App Store Connect.
+> Managed application deployment and release workflows across web, Android, and iOS environments using GitHub Actions, Vercel, AWS,
+Google Play Console, and App Store Connect.
 
-Only keep platforms that were actually used in professional/project
-work.
-
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 7. Education
 
@@ -134,23 +108,13 @@ work.
   - Institution
   - Year
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 8. Certifications
 
-Add a certifications section only if actual certifications exist.
+Add a certifications section.
 
-### Possible relevant certifications
-
-- [ ] AWS
-- [ ] JavaScript / React
-- [ ] Node.js
-- [ ] Cloud
-- [ ] Other relevant professional certifications
-
-Do not add certifications that were not completed.
-
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 9. Add a Key Achievements Section
 
@@ -162,7 +126,7 @@ A short achievements section can improve recruiter readability.
 
 Use only achievements that can be supported by actual experience.
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 10. Resume Positioning
 
@@ -176,21 +140,9 @@ The resume can currently read as:
 
 It should communicate:
 
-> "I use these technologies to understand business requirements, build
-> complete applications, deploy them, and deliver working solutions to
-> clients."
+> "I use these technologies to understand business requirements, build complete applications, deploy them, and deliver working solutions to clients."
 
-This positioning is especially useful for:
-
-- Full Stack Developer
-- Full Stack JavaScript Developer
-- Web & Mobile App Developer
-- React Developer
-- React Native Developer
-- Next.js Developer
-- Software Developer
-
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 11. Priority Order
 
@@ -214,37 +166,26 @@ This positioning is especially useful for:
 12. [ ] Add performance/reliability metrics where they can be verified.
 13. [ ] Tailor the technology section for specific job descriptions.
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 12. Important Rules While Updating
 
-- Do not invent metrics.
-- Do not claim technologies that were only briefly explored as core
-    expertise.
 - Do not list every technology with equal proficiency.
-- Prioritize production experience over tutorial/personal-project
-    experience.
-- Use action verbs such as **Developed, Built, Designed, Implemented,
-    Integrated, Deployed, Managed, Optimized**.
+- Use action verbs such as **Developed, Built, Designed, Implemented, Integrated, Deployed, Managed, Optimized**.
 - Prefer measurable outcomes over generic responsibility statements.
 - Keep the resume concise enough for quick recruiter scanning.
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 13. ATS, Content & Layout Guidance
 
-- [ ] Use standard section names: Professional Summary, Technical Skills,
-  Professional Experience, Selected Projects, and Education.
-- [ ] Include exact terms from each job description only where they accurately
-  reflect experience.
-- [ ] Keep technology names consistent, such as React.js, React Native,
-  Node.js, Next.js, and TypeScript.
-- [ ] Use concise action verbs and consistent tense: present tense for the
-  current role and past tense for previous roles.
-- [ ] Keep the final resume to one or two pages; remove low-value content
-  before cutting meaningful achievements.
+- [ ] Use standard section names: Professional Summary, Technical Skills, Professional Experience, Selected Projects, and Education.
+- [ ] Include exact terms from each job description only where they accurately reflect experience.
+- [ ] Keep technology names consistent, such as React.js, React Native, Node.js, Next.js, and TypeScript.
+- [ ] Use concise action verbs and consistent tense: present tense for the current role and past tense for previous roles.
+- [ ] Keep the final resume to one or two pages; remove low-value content before cutting meaningful achievements.
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 14. Additional High-Value Details to Include
 
@@ -264,25 +205,20 @@ This positioning is especially useful for:
 
 - [ ] Projects where technical choices prevented maintenance, performance,
   security, or data risks.
-- [ ] Documents created for clients or teams, such as scopes, plans,
-  requirements, guides, or handover notes.
-- [ ] Examples of improving communication, workflows, task tracking, or team
-  coordination.
+- [ ] Documents created for clients or teams, such as scopes, plans, requirements, guides, or handover notes.
+- [ ] Examples of improving communication, workflows, task tracking, or team coordination.
 - [ ] Quantifiable results from delivered projects.
-- [ ] Delivery, testing, monitoring, backup, or recovery practices personally
-  implemented.
+- [ ] Delivery, testing, monitoring, backup, or recovery practices personally implemented.
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 15. Role-Specific Resume Versions
 
-Tailor the resume for the target role instead of using one identical version
-for every application.
+Tailor the resume for the target role instead of using one identical version for every application.
 
 ### Full Stack Developer
 
-Emphasize React, Next.js, Node.js, Express, MongoDB or SQL, REST APIs, AWS,
-deployment, and end-to-end ownership.
+Emphasize React, Next.js, Node.js, Express, MongoDB or SQL, REST APIs, AWS, deployment, and end-to-end ownership.
 
 ### React / React Native Developer
 
@@ -301,16 +237,15 @@ decisions, technical ownership, code reviews, mentoring, task delegation,
 client communication, estimation, team coordination, and production
 ownership.
 
-------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 ## 16. Overall Goal
 
 The revised resume should communicate this within the first few seconds:
 
 > **Full Stack Developer who can take a business requirement, build the
-> web/mobile frontend, develop the backend and APIs, integrate third-party
-> services, deploy the application, and maintain it in production.**
+web/mobile frontend, develop the backend and APIs, integrate third-party
+services, deploy the application, and maintain it in production.**
 
 The resume should demonstrate this through specific responsibilities,
-technologies, projects, and measurable outcomes rather than a long technology
-list alone.
+technologies, projects, and measurable outcomes rather than a long technology list alone.
