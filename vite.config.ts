@@ -10,7 +10,7 @@ export default defineConfig({
   },
   build: {
     target: 'esnext',
-    outDir: 'doc',
+    outDir: 'docs',
     rollupOptions: {
       output: {
         entryFileNames: 'assets/[name].js',
