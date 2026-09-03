@@ -39,6 +39,7 @@
                 [
                     "React.js",
                     "React Native",
+                    "Flutter",
                     "Redux",
                     "Next.js",
                     "Solid.js"
@@ -147,7 +148,8 @@
                     "C",
                     "C++",
                     "Java",
-                    "Python"
+                    "Python",
+                    "Dart"
                 ]
             ]
         },
