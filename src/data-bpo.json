@@ -1,0 +1,373 @@
+{
+    "name": {
+        "firstName": "Vishesh",
+        "lastName": "Vishwakarma"
+    },
+    "role": "Back Office Executive | Operations & Support Specialist",
+    "contact": {
+        "address": "Naigaon, Vasai-Virar, Maharashtra, India",
+        "email": "vishesh.learn@gmail.com",
+        "phone": "+91 7768801141"
+    },
+    "links": [
+        {
+            "label": "GitHub",
+            "value": "github.com/vishesh-learn"
+        },
+        {
+            "label": "LinkedIn",
+            "value": "linkedin.com/in/visheshvishwakarma"
+        }
+    ],
+    "professionalSummary": "Operations and support professional with 5+ years of experience managing client communication, process coordination, documentation, task tracking, and workflow support across digital projects. Skilled in maintaining project records, preparing standard operating procedures, handling day-to-day operational follow-ups, and ensuring smooth delivery through structured documentation and issue resolution. Brings strong experience in requirement tracking, client coordination, deployment support, data handling, and quality control across web and mobile project environments. Known for clear communication, accuracy, process discipline, and practical problem-solving that supports business continuity and efficient team operations.",
+    "skills": [
+        {
+            "category": "Operations & Administration",
+            "items": [
+                [
+                    "Client Coordination",
+                    "Task Tracking",
+                    "Workflow Support"
+                ],
+                [
+                    "Data Entry",
+                    "Reporting",
+                    "Process Improvement"
+                ],
+                [
+                    "Documentation",
+                    "SOP Preparation",
+                    "Issue Resolution"
+                ]
+            ]
+        },
+        {
+            "category": "Communication & Client Support",
+            "items": [
+                [
+                    "Requirement Gathering",
+                    "Follow-ups",
+                    "Status Updates"
+                ],
+                [
+                    "Email & Call Support",
+                    "Meeting Coordination",
+                    "Handover Assistance"
+                ],
+                [
+                    "Stakeholder Communication",
+                    "Risk Awareness",
+                    "Service Quality"
+                ]
+            ]
+        },
+        {
+            "category": "Project & Process Support",
+            "items": [
+                [
+                    "Project Scoping",
+                    "Scope Tracking",
+                    "Delivery Coordination"
+                ],
+                [
+                    "Documentation Control",
+                    "Release Support",
+                    "Deployment Follow-up"
+                ],
+                [
+                    "Quality Checks",
+                    "Troubleshooting",
+                    "Process Monitoring"
+                ]
+            ]
+        },
+        {
+            "category": "Tools & Data Handling",
+            "items": [
+                [
+                    "Google Workspace",
+                    "Excel",
+                    "Sheets"
+                ],
+                [
+                    "GitHub",
+                    "CMS Support",
+                    "Cloud Basics"
+                ],
+                [
+                    "MongoDB Basics",
+                    "Wix",
+                    "WordPress"
+                ]
+            ]
+        },
+        {
+            "category": "Technical Basics",
+            "items": [
+                [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                [
+                    "React Basics",
+                    "Web Content Updates",
+                    "JSON Configuration"
+                ],
+                [
+                    "AWS Basics",
+                    "Vercel",
+                    "Netlify"
+                ]
+            ]
+        },
+        {
+            "category": "Languages",
+            "items": [
+                [
+                    "English",
+                    "Hindi"
+                ]
+            ]
+        }
+    ],
+    "workHistory": [
+        {
+            "jobTitle": "Operations & Project Support Executive",
+            "companyName": "Bluehance360 LLP",
+            "jobLocation": "Mumbai, Maharashtra",
+            "dates": {
+                "from": "March 2023",
+                "to": "August 2026"
+            },
+            "description": [
+                "Coordinated with clients to understand requirements, define scope, and convert business needs into clear project steps and action plans.",
+                "Maintained project records, task follow-ups, and operational documentation to support smooth delivery and consistent team coordination.",
+                "Prepared and updated implementation notes, setup guides, handover files, and process documentation for both internal teams and clients.",
+                "Tracked ongoing tasks, deadlines, and issue status to ensure timely execution and reduce delays in project workflows.",
+                "Communicated progress, risks, and action points clearly with clients and team members to maintain strong service continuity.",
+                "Supported deployment and release follow-ups across web, Android, and iOS project environments, ensuring smooth completion of operational tasks.",
+                "Assisted with troubleshooting, issue tracking, and technical validation to resolve problems efficiently and maintain service quality.",
+                "Worked with data handling, secure information practices, backup planning, and risk awareness to support business continuity and improve operational reliability."
+            ]
+        },
+        {
+            "jobTitle": "Web Operations & Support Associate",
+            "companyName": "Mitr Learning & Media Pvt. Ltd.",
+            "jobLocation": "Mumbai, Maharashtra",
+            "dates": {
+                "from": "May 2021",
+                "to": "March 2023"
+            },
+            "description": [
+                "Supported production web operations through content updates, configuration changes, and routine platform maintenance tasks.",
+                "Handled task-based updates and workflow coordination to ensure smooth execution of project activities and content delivery.",
+                "Maintained structured records and internal documentation to support reporting, tracking, and operational visibility.",
+                "Assisted with JSON configuration edits and content updates to align digital assets with defined business requirements.",
+                "Collaborated with team members on deadlines, issue follow-ups, and progress tracking while maintaining clear communication and reporting standards.",
+                "Contributed to team workflows through organized updates, task coordination, documentation, and timely communication throughout the delivery process."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "DotBox - Browser & Android Game (Personal Project)",
+            "description": "Designed and developed a browser-based implementation of the classic Dots and Boxes game featuring complex game logic, mathematical algorithms, responsive UI, custom animations, and configurable gameplay. Deployed as both a web application and Android app.",
+            "used": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "SVG",
+                "Java (Android)"
+            ],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "dotbox-web-vishesh-learn.vercel.app"
+                },
+                {
+                    "label": "Android App",
+                    "value": "play.google.com/store/apps/details?id=com.vishesh.dotbox"
+                }
+            ],
+            "type": "custom"
+        },
+        {
+            "title": "Ozzy School - School Management & Learning Platform",
+            "description": "Built a custom authentication system with email/password login, OTP-based password reset, session-based access control, and role-based content delivery, alongside the public website.",
+            "used": [
+                "React.js",
+                "SCSS",
+                "Node.js",
+                "Express",
+                "TypeScript",
+                "MariaDB",
+                "GitHub Actions (CI/CD)",
+                "Wix (Editor, Velo)"
+            ],
+            "links": [
+                {
+                    "label": "Website (Wix)",
+                    "value": "ozzy.school"
+                },
+                {
+                    "label": "Login (Custom)",
+                    "value": "login.ozzy.school"
+                }
+            ],
+            "type": "custom"
+        },
+        {
+            "title": "City to City Asia Pacific - Annual Report 2025",
+            "description": "Built a static, cinematic single-page annual report site with scroll-driven choreography, framed editorial photography, interactive financial charts, and a multi-section content flow (hub cities, metrics, programs, and a regional calendar) driven by typed, structured content.",
+            "used": [
+                "Next.js",
+                "React",
+                "TypeScript",
+                "GSAP (ScrollTrigger)",
+                "Lenis",
+                "Recharts"
+            ],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "city-to-city-annual-report-2025.citytocityasiapacific.com"
+                }
+            ],
+            "type": "custom"
+        },
+        {
+            "title": "Typeify - Typing Speed Test",
+            "description": "Interactive typing speed test tool with real-time performance metrics and custom app development and integration.",
+            "used": [
+                "Wix (Editor, Velo)",
+                "HTML",
+                "CSS",
+                "JS"
+            ],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "typeify.co.uk/professional-speed-test"
+                }
+            ],
+            "type": "wix"
+        },
+        {
+            "title": "Hagah",
+            "description": "Maintained and enhanced a meditation platform across the mobile app, admin panel, and backend services, implementing authentication, premium audio streaming, downloadable audio, playlists, UI/UX improvements, and an AWS-based HLS streaming pipeline that automatically converts uploaded tracks for adaptive playback.",
+            "used": [
+                "React.js",
+                "React Native",
+                "TypeScript",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose"
+            ],
+            "links": [
+                {
+                    "label": "Play Store",
+                    "value": "play.google.com/store/apps/details?id=com.hagah.meditation"
+                },
+                {
+                    "label": "App Store",
+                    "value": "apps.apple.com/in/app/hagah/id6749614838"
+                }
+            ],
+            "type": "custom"
+        },
+        {
+            "title": "Pastors University",
+            "description": "Built and maintained the learner-facing web app and admin tooling for a pastoral leadership platform, including course access, payments, multilingual content, media workflows, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
+            "used": [
+                "React.js",
+                "Vite",
+                "Redux Toolkit",
+                "Tailwind CSS",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose",
+                "Stripe",
+                "AWS (S3, MediaConvert)",
+                "i18next"
+            ],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "learning.pastorsuniversity.org"
+                }
+            ],
+            "type": "custom"
+        },
+        {
+            "title": "Go Make Disciples (CPI)",
+            "description": "Built and maintained a faith-based streaming and learning platform spanning mobile, web, and admin applications, implementing subscription-based access to courses, books, and streaming content, an admin book management system, multilingual support, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
+            "used": [
+                "React Native (Expo)",
+                "Next.js",
+                "React",
+                "Redux Toolkit",
+                "Tailwind CSS",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose",
+                "RevenueCat",
+                "Stripe",
+                "AWS (S3, MediaConvert, Transcribe)",
+                "HLS.js",
+                "i18next"
+            ],
+            "links": [
+                {
+                    "label": "Website",
+                    "value": "gomakedisciples.tv"
+                },
+                {
+                    "label": "Play Store",
+                    "value": "play.google.com/store/apps/details?id=tv.gomakedisciples.app"
+                },
+                {
+                    "label": "App Store",
+                    "value": "apps.apple.com/us/app/go-make-disciples/id6762123535"
+                }
+            ],
+            "type": "custom"
+        },
+        {
+            "title": "The Mindset IQ",
+            "description": "Developed a highly configurable assessment platform featuring custom questionnaire generation, role-based dashboards, subscription-aware business rules, automated candidate workflows, dynamic result calculation, and branded PDF report generation driven by admin-defined configurations.",
+            "used": [
+                "Wix (Editor, Velo)",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "themindsetiq.com"
+                }
+            ],
+            "type": "wix"
+        }
+    ],
+    "qualifications": [
+        {
+            "organisation": "St. Gonsalo Garcia College",
+            "location": "Maharashtra, India",
+            "title": "BSc IT",
+            "score": "",
+            "note": ""
+        },
+        {
+            "organisation": "Girija Mhatre Junior College",
+            "location": "Maharashtra, India",
+            "title": "Higher Secondary School Certificate",
+            "score": "",
+            "note": ""
+        }
+    ]
+}

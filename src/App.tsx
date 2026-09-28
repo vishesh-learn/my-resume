@@ -1,10 +1,9 @@
 import './style/main.scss';
 import './style/media-query.scss';
 
-import { Component, createEffect, createSignal, onMount } from 'solid-js';
-import data from './data.json' with { type: "json" };
-
-// const data = json as any;
+import { Component, createSignal } from 'solid-js';
+// import data from './data.json' with { type: "json" };
+import data from './data-bpo.json' with { type: "json" };
 
 class Type {
   label: string;
