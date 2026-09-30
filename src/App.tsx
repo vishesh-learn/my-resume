@@ -3,7 +3,8 @@ import './style/media-query.scss';
 
 import { Component, createSignal } from 'solid-js';
 // import data from './data.json' with { type: "json" };
-import data from './data-bpo.json' with { type: "json" };
+import data from './data-mobile.json' with { type: "json" };
+// import data from './data-bpo.json' with { type: "json" };
 
 class Type {
   label: string;

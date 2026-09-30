@@ -1,0 +1,271 @@
+{
+    "name": {
+        "firstName": "Vishesh",
+        "lastName": "Vishwakarma"
+    },
+    "role": "Full Stack Mobile App Developer",
+    "contact": {
+        "address": "Naigaon, Vasai-Virar, Maharashtra, India",
+        "email": "vishesh.learn@gmail.com",
+        "phone": "+91 7768801141"
+    },
+    "links": [
+        {
+            "label": "GitHub",
+            "value": "github.com/vishesh-learn"
+        },
+        {
+            "label": "LinkedIn",
+            "value": "linkedin.com/in/visheshvishwakarma"
+        }
+    ],
+    "professionalSummary": "Full Stack Mobile App Developer with 3+ years of professional experience, delivering 4+ production mobile applications for 4+ clients, most serving 1,000+ users. Turns client requirements into well-scoped, maintainable digital products. Experienced in making technical decisions across platforms, languages, databases, integrations, and deployment workflows. Combines hands-on development with clear documentation, practical development standards, risk-aware system design, and structured client communication to improve delivery from discovery through handover. Improved application performance by ~20% and reduced development or deployment time by ~30% through practical delivery practices. Leverages AI tools and APIs to build smarter features, accelerate development, and improve code quality.",
+    "skills": [
+        {
+            "category": "Frontend",
+            "items": [
+                [
+                    "React Native",
+                    "TypeScript",
+                    "SCSS"
+                ]
+            ]
+        },
+        {
+            "category": "Backend",
+            "items": [
+                [
+                    "Node.js",
+                    "Express"
+                ]
+            ]
+        },
+        {
+            "category": "Database",
+            "items": [
+                [
+                    "MongoDB",
+                    "Mongoose"
+                ],
+                [
+                    "MySQL",
+                    "MariaDB"
+                ]
+            ]
+        },
+        {
+            "category": "Cloud & Integrations",
+            "items": [
+                [
+                    "AWS (S3, MediaConvert, Transcribe)"
+                ],
+                [
+                    "Stripe"
+                ],
+                [
+                    "RevenueCat"
+                ],
+                [
+                    "REST APIs"
+                ]
+            ]
+        },
+        {
+            "category": "Tools & Deployment",
+            "items": [
+                [
+                    "GitHub",
+                    "GitHub Actions (CI/CD)"
+                ],
+                [
+                    "Visual Studio Code"
+                ],
+                [
+                    "Vercel",
+                    "Netlify"
+                ],
+                [
+                    "Google Play Console (Android)"
+                ],
+                [
+                    "App Store Connect (iOS)"
+                ]
+            ]
+        },
+        {
+            "category": "Technical Leadership & Delivery",
+            "items": [
+                [
+                    "Technical Strategy & Stack Selection"
+                ],
+                [
+                    "Project Scoping, Estimates & Client Plans"
+                ],
+                [
+                    "Documentation, Handover & SOPs"
+                ],
+                [
+                    "Team Coordination, Quality & Risk Reduction"
+                ]
+            ]
+        },
+        {
+            "category": "Languages",
+            "items": [
+                [
+                    "English",
+                    "Hindi"
+                ]
+            ]
+        }
+    ],
+    "workHistory": [
+        {
+            "jobTitle": "Full Stack Developer",
+            "companyName": "Bluehance360 LLP",
+            "jobLocation": "Mumbai, Maharashtra",
+            "dates": {
+                "from": "March 2023",
+                "to": "August 2026"
+            },
+            "description": [
+                "Developed and maintained client-facing web applications using Wix Velo, JavaScript, and custom backend logic in a production environment.",
+                "Built and customized dynamic features such as product pages, search, calculators, and form-based workflows.",
+                "Integrated third-party APIs, authentication, and interactive functionality based on project requirements.",
+                "Collaborated directly with clients to gather requirements, define project scope, and translate needs into clear build plans and maintainable solutions.",
+                "Advised on suitable platforms, tools, databases, and implementation approaches based on project requirements and long-term maintainability.",
+                "Created and maintained technical documentation, including requirements, implementation notes, setup guidance, and handover information for client and team use.",
+                "Improved application stability and maintainability through modular code, debugging, performance optimization, and practical delivery practices.",
+                "Managed application deployment and release workflows across web, Android, and iOS environments using GitHub Actions, Vercel, AWS, Google Play Console, and App Store Connect.",
+                "Provided clients and team members with implementation guidance and practical best practices, including secure MongoDB data handling, backup planning, and recovery considerations to reduce data-loss risk."
+            ]
+        },
+        {
+            "jobTitle": "Web Developer",
+            "companyName": "Mitr Learning & Media Pvt. Ltd.",
+            "jobLocation": "Mumbai, Maharashtra",
+            "dates": {
+                "from": "May 2021",
+                "to": "March 2023"
+            },
+            "description": [
+                "Worked on production web applications, supporting content integration, configuration, and customization using templates and GUI-based tools.",
+                "Made minor HTML and JavaScript updates and occasionally modified existing React.js components.",
+                "Customized application behavior and content through JSON configuration files.",
+                "Collaborated with team members using task tracking and timelines to meet delivery deadlines while following professional reporting standards.",
+                "Supported structured team workflows through clear progress updates, coordination, documentation, and timely communication."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Hagah",
+            "description": "Maintained and enhanced a meditation platform across the mobile app, admin panel, and backend services, implementing authentication, premium audio streaming, downloadable audio, playlists, UI/UX improvements, and an AWS-based HLS streaming pipeline that automatically converts uploaded tracks for adaptive playback.",
+            "used": [
+                "React.js",
+                "React Native (Expo)",
+                "TypeScript",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose",
+                "AWS (S3, MediaConvert)",
+                "i18next"
+            ],
+            "links": [
+                {
+                    "label": "Play Store",
+                    "value": "play.google.com/store/apps/details?id=com.hagah.meditation"
+                },
+                {
+                    "label": "App Store",
+                    "value": "apps.apple.com/in/app/hagah/id6749614838"
+                }
+            ],
+            "type": "custom"
+        },
+        {
+            "title": "Pastors University",
+            "description": "Built and maintained the learner-facing web app and admin tooling for a pastoral leadership platform, including course access, payments, multilingual content, media workflows, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
+            "used": [
+                "React.js",
+                "React Native (Expo)",
+                "Vite",
+                "Redux Toolkit",
+                "Tailwind CSS",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose",
+                "Stripe",
+                "AWS (S3, MediaConvert)",
+                "i18next"
+            ],
+            "links": [
+                {
+                    "label": "Web",
+                    "value": "learning.pastorsuniversity.org"
+                },
+                {
+                    "label": "Play Store",
+                    "value": "play.google.com/store/apps/details?id=org.pastorsuniversity.learning"
+                },
+                {
+                    "label": "App Store",
+                    "value": "apps.apple.com/us/app/pastors-university/id6751183536"
+                }
+            ],
+            "type": "custom"
+        },
+        {
+            "title": "Go Make Disciples (CPI)",
+            "description": "Built and maintained a faith-based streaming and learning platform spanning mobile, web, and admin applications, implementing subscription-based access to courses, books, and streaming content, an admin book management system, multilingual support, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
+            "used": [
+                "React.js",
+                "React Native (Expo)",
+                "Next.js",
+                "Redux Toolkit",
+                "Tailwind CSS",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Mongoose",
+                "RevenueCat",
+                "Stripe",
+                "AWS (S3, MediaConvert, Transcribe)",
+                "i18next"
+            ],
+            "links": [
+                {
+                    "label": "Website",
+                    "value": "gomakedisciples.tv"
+                },
+                {
+                    "label": "Play Store",
+                    "value": "play.google.com/store/apps/details?id=tv.gomakedisciples.app"
+                },
+                {
+                    "label": "App Store",
+                    "value": "apps.apple.com/us/app/go-make-disciples/id6762123535"
+                }
+            ],
+            "type": "custom"
+        }
+    ],
+    "qualifications": [
+        {
+            "organisation": "St. Gonsalo Garcia College",
+            "location": "Maharashtra, India",
+            "title": "BSc IT",
+            "score": "",
+            "note": ""
+        },
+        {
+            "organisation": "Girija Mhatre Junior College",
+            "location": "Maharashtra, India",
+            "title": "Higher Secondary School Certificate",
+            "score": "",
+            "note": ""
+        }
+    ]
+}
