@@ -176,6 +176,8 @@
                 "Developed and maintained client-facing web applications using Wix Velo, JavaScript, and custom backend logic in a production environment.",
                 "Built and customized dynamic features such as product pages, search, calculators, and form-based workflows.",
                 "Integrated third-party APIs, authentication, and interactive functionality based on project requirements.",
+                "Built and maintained cross-platform mobile applications for Android and iOS using React Native and Expo.",
+                "Implemented mobile features, integrated backend APIs, and managed application builds and releases through Expo, Google Play Console, and App Store Connect.",
                 "Collaborated directly with clients to gather requirements, define project scope, and translate needs into clear build plans and maintainable solutions.",
                 "Advised on suitable platforms, tools, databases, and implementation approaches based on project requirements and long-term maintainability.",
                 "Created and maintained technical documentation, including requirements, implementation notes, setup guidance, and handover information for client and team use.",
@@ -290,12 +292,14 @@
             "description": "Maintained and enhanced a meditation platform across the mobile app, admin panel, and backend services, implementing authentication, premium audio streaming, downloadable audio, playlists, UI/UX improvements, and an AWS-based HLS streaming pipeline that automatically converts uploaded tracks for adaptive playback.",
             "used": [
                 "React.js",
-                "React Native",
+                "React Native (Expo)",
                 "TypeScript",
                 "Node.js",
                 "Express.js",
                 "MongoDB",
-                "Mongoose"
+                "Mongoose",
+                "AWS (S3, MediaConvert)",
+                "i18next"
             ],
             "links": [
                 {
@@ -314,6 +318,7 @@
             "description": "Built and maintained the learner-facing web app and admin tooling for a pastoral leadership platform, including course access, payments, multilingual content, media workflows, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
             "used": [
                 "React.js",
+                "React Native (Expo)",
                 "Vite",
                 "Redux Toolkit",
                 "Tailwind CSS",
@@ -329,6 +334,14 @@
                 {
                     "label": "Web",
                     "value": "learning.pastorsuniversity.org"
+                },
+                {
+                    "label": "Play Store",
+                    "value": "play.google.com/store/apps/details?id=org.pastorsuniversity.learning"
+                },
+                {
+                    "label": "App Store",
+                    "value": "apps.apple.com/us/app/pastors-university/id6751183536"
                 }
             ],
             "type": "custom"
@@ -337,9 +350,9 @@
             "title": "Go Make Disciples (CPI)",
             "description": "Built and maintained a faith-based streaming and learning platform spanning mobile, web, and admin applications, implementing subscription-based access to courses, books, and streaming content, an admin book management system, multilingual support, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
             "used": [
+                "React.js",
                 "React Native (Expo)",
                 "Next.js",
-                "React",
                 "Redux Toolkit",
                 "Tailwind CSS",
                 "Node.js",
@@ -349,7 +362,6 @@
                 "RevenueCat",
                 "Stripe",
                 "AWS (S3, MediaConvert, Transcribe)",
-                "HLS.js",
                 "i18next"
             ],
             "links": [
