@@ -132,6 +132,33 @@ const App: Component = () => {
           </div>
         </div>
 
+        <div class="section education">
+          <div class="heading">Education</div>
+          <div class="sortableInner">
+            {
+              data.qualifications.map(qualification =>
+                <div class="hBar-container paragraph">
+                  <div class="hBar">
+                    <span class="paddedline">
+                      <span class="school-name">{qualification.organisation}</span>
+                      <span> - </span>
+                      <span class="joblocation jobcity">{qualification.location}</span>
+                      <span> - </span>
+                      <span class="degree">{qualification.title}</span>
+                    </span>
+                  </div>
+                  {
+                    qualification.score && <><span>|</span> <i>{qualification.score}%</i></>
+                  }
+                  {
+                    qualification.note && <><span>|</span><i>({qualification.note})</i></>
+                  }
+                </div>
+              )
+            }
+          </div>
+        </div>
+
         <div class="section history">
           <div class="doc-item">
             <div class="heading">Professional Experience</div>
@@ -201,33 +228,6 @@ const App: Component = () => {
                 )
             }
           </ul>
-        </div>
-
-        <div class="section education">
-          <div class="heading">Education</div>
-          <div class="sortableInner">
-            {
-              data.qualifications.map(qualification =>
-                <div class="hBar-container paragraph">
-                  <div class="hBar">
-                    <span class="paddedline">
-                      <span class="school-name">{qualification.organisation}</span>
-                      <span> - </span>
-                      <span class="joblocation jobcity">{qualification.location}</span>
-                      <span> - </span>
-                      <span class="degree">{qualification.title}</span>
-                    </span>
-                  </div>
-                  {
-                    qualification.score && <><span>|</span> <i>{qualification.score}%</i></>
-                  }
-                  {
-                    qualification.note && <><span>|</span><i>({qualification.note})</i></>
-                  }
-                </div>
-              )
-            }
-          </div>
         </div>
       </div>
     </>
