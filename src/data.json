@@ -97,6 +97,17 @@
             ]
         },
         {
+            "category": "Office tools",
+            "items": [
+                [
+                    "MS PowerPoint", "Google Slides"
+                ],
+                [
+                    "MS Excel", "Google Sheets"
+                ]
+            ]
+        },
+        {
             "category": "Tools & Deployment",
             "items": [
                 [
