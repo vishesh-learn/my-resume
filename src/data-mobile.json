@@ -25,7 +25,9 @@
             "category": "Frontend",
             "items": [
                 [
-                    "React Native",
+                    "React Native (with Expo)"
+                ],
+                [
                     "TypeScript",
                     "SCSS"
                 ]
@@ -119,6 +121,22 @@
             ]
         }
     ],
+    "qualifications": [
+        {
+            "organisation": "St. Gonsalo Garcia College",
+            "location": "Maharashtra, India",
+            "title": "BSc IT",
+            "score": "",
+            "note": ""
+        },
+        {
+            "organisation": "Girija Mhatre Junior College",
+            "location": "Maharashtra, India",
+            "title": "Higher Secondary School Certificate",
+            "score": "",
+            "note": ""
+        }
+    ],
     "workHistory": [
         {
             "jobTitle": "Full Stack Developer",
@@ -165,7 +183,7 @@
             "description": "Maintained and enhanced a meditation platform across the mobile app, admin panel, and backend services, implementing authentication, premium audio streaming, downloadable audio, playlists, UI/UX improvements, and an AWS-based HLS streaming pipeline that automatically converts uploaded tracks for adaptive playback.",
             "used": [
                 "React.js",
-                "React Native (Expo)",
+                "React Native (with Expo)",
                 "TypeScript",
                 "Node.js",
                 "Express.js",
@@ -191,7 +209,7 @@
             "description": "Built and maintained the learner-facing web app and admin tooling for a pastoral leadership platform, including course access, payments, multilingual content, media workflows, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
             "used": [
                 "React.js",
-                "React Native (Expo)",
+                "React Native (with Expo)",
                 "Vite",
                 "Redux Toolkit",
                 "Tailwind CSS",
@@ -224,7 +242,7 @@
             "description": "Built and maintained a faith-based streaming and learning platform spanning mobile, web, and admin applications, implementing subscription-based access to courses, books, and streaming content, an admin book management system, multilingual support, and an AWS-based automated HLS media pipeline integrated with backend APIs.",
             "used": [
                 "React.js",
-                "React Native (Expo)",
+                "React Native (with Expo)",
                 "Next.js",
                 "Redux Toolkit",
                 "Tailwind CSS",
@@ -252,22 +270,6 @@
                 }
             ],
             "type": "custom"
-        }
-    ],
-    "qualifications": [
-        {
-            "organisation": "St. Gonsalo Garcia College",
-            "location": "Maharashtra, India",
-            "title": "BSc IT",
-            "score": "",
-            "note": ""
-        },
-        {
-            "organisation": "Girija Mhatre Junior College",
-            "location": "Maharashtra, India",
-            "title": "Higher Secondary School Certificate",
-            "score": "",
-            "note": ""
         }
     ]
 }
