@@ -1,60 +1,67 @@
 import './style/main.scss';
 import './style/media-query.scss';
 
-import { Component, createSignal } from 'solid-js';
-// import data from './data.json' with { type: "json" };
-import data from './data-mobile.json' with { type: "json" };
+import { Component } from 'solid-js';
+import data from './data.json' with { type: "json" };
+// import data from './data-mobile.json' with { type: "json" };
 // import data from './data-bpo.json' with { type: "json" };
 
-class Type {
-  label: string;
-  value: string;
+const Skills = (props: {
+  skills: {
+    category: string,
+    items: string[][]
+  }[]
+}) => {
+  return (
+    <div class="section skills">
+      <div class="heading">Technical Skills</div>
+      <div class="paragraph">
+        <ul class="dot-list">
+          {
+            props.skills.map(skill =>
+              skill["category"] ?
+                <li>
+                  <b>{skill.category}:</b>
+                  <ul>
 
-  constructor(label: string, value: string) {
-    this.label = label;
-    this.value = value;
-  }
+                    {
+                      skill.items.map((item: string | string[]) =>
+                        <li class="skill-items">
+                          {
+                            typeof item == "string" ? item : item.join(", ")
+                          }
+                        </li>
+                      )
+                    }
+                  </ul>
+                </li>
+                :
+                <ul>
+
+                  {
+                    skill.items.map((item: string | string[]) =>
+                      <li class="skill-items">
+                        {
+                          typeof item == "string" ? item : item.join(", ")
+                        }
+                      </li>
+                    )
+                  }
+                </ul>
+            )
+          }
+        </ul>
+      </div>
+    </div>
+  );
 }
 
-const types: Type[] = [
-  new Type("Custom", "custom"),
-  new Type("Wix", "wix")
-];
-
 const App: Component = () => {
-  const [getSelectedTypes, setSelectedTypes] = createSignal<string[]>(types.map(type => type.value));
-
-  function type_OnChange(event: any) {
-    const value = event.target.value;
-    const checked = event.target.checked;
-
-    setSelectedTypes(selected =>
-      checked
-        ? (selected.includes(value) ? selected : [...selected, value])
-        : selected.filter(type => type != value)
-    );
-  }
+  const searchParams = new URLSearchParams(window.location.search);
 
   return (
     <>
-      <header>
-        {
-          types.map(type => (
-            <fieldset>
-              <input type="checkbox"
-                value={type.value}
-                id={type.value}
-                onChange={type_OnChange}
-                checked={true}
-              />
-
-              <label for={type.value}>{type.label}</label>
-            </fieldset>
-          ))
-        }
-      </header>
-
-      <div class="document">
+      <div class="document" contentEditable={searchParams.has('edit')}>
         <div class="section name">
           <span class="first-name">{data.name.firstName}</span><br />
           <span class="last-name">{data.name.lastName}</span>
@@ -91,46 +98,7 @@ const App: Component = () => {
           </div>
         </div>
 
-        <div class="section skills">
-          <div class="heading">Technical Skills</div>
-          <div class="paragraph">
-            <ul class="dot-list">
-              {
-                data.skills.map(skill =>
-                  skill["category"] ?
-                    <li>
-                      <b>{skill.category}:</b>
-                      <ul>
-
-                        {
-                          skill.items.map(item =>
-                            <li class="skill-items">
-                              {
-                                typeof item == "string" ? item : item.join(", ")
-                              }
-                            </li>
-                          )
-                        }
-                      </ul>
-                    </li>
-                    :
-                    <ul>
-
-                      {
-                        skill.items.map(item =>
-                          <li class="skill-items">
-                            {
-                              typeof item == "string" ? item : item.join(", ")
-                            }
-                          </li>
-                        )
-                      }
-                    </ul>
-                )
-              }
-            </ul>
-          </div>
-        </div>
+        <Skills skills={data.skills} />
 
         <div class="section education">
           <div class="heading">Education</div>
@@ -199,11 +167,11 @@ const App: Component = () => {
 
             {
               data.projects
-                .filter(project => {
-                  const selected = getSelectedTypes();
+                // .filter(project => {
+                //   const selected = getSelectedTypes();
 
-                  return selected.includes(project.type)
-                })
+                //   return selected.includes(project.type)
+                // })
                 .map(project =>
                   <li id="dotbox">
                     <h4 class="title">{project.title}</h4>
